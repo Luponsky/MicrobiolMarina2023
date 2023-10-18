@@ -83,7 +83,7 @@ getwd()
 However, in the case of **`setwd()`**, we then need to tell it where we want to go. Here, we are saying we want to move into the directory holding our example data, and then checking we moved with **`getwd()`** again:  
 
 ```R
-setwd("R_basics/")
+setwd("IntroductionR/")
 getwd()
 ```
 
