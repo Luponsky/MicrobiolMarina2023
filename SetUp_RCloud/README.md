@@ -9,11 +9,11 @@
 
 3. Seleziona in alto a sinistra il tuo workspace e sulla destra troverai New Project--> New Project from github pages
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/R2.png">
+  <img  src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/R2.png">
 </p>
 
 4. ti
 
    <p align="center">
-  <img width="460" height="300" src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/salvare_progetto.png">
+  <img  src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/salvare_progetto.png">
 </p>
