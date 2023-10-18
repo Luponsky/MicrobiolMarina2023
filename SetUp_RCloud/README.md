@@ -14,6 +14,6 @@
 
 4. ti
 
-   <p align="center">
+<p align="center">
   <img  src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/salvare_progetto.png">
 </p>
