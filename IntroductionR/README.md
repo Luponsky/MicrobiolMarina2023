@@ -1,22 +1,12 @@
-#Introduction to R
 
-
-
-> **Things covered here:**  
-*  RStudio value and layout
-*  How to check and set our working directory
-*  Basic calculations and setting variables
-*  What indexing is and how to do it
-*  Reading in and writing out data
+ # Introduction to R: 
+---
 
 <br>
 
-# Important note!
+## Important note!
 **Maybe the most important thing to keep in mind here is that this is all about *exposure*, not memorization or mastering anything. Don't worry about the details. At first we just need to starting building a mental framework of the foundational rules and concepts. That equips us to figure out the things we need to, when we need to do them** 🙂
 
-This module is designed for those that are either completely new to R, or have some experience but maybe don't feel as solid about some of the fundamentals as they'd like. It will run through the very basics such as setting up your working environment, assigning variables, "indexing" (subsetting data), reading in and writing out data. Some relevant terminology is presented [here](/R/index){:target="_blank"} if you find yourself seeing some words that are unfamilar. This page is meant to be a quick-start to get us into and using the R environment.
-
-> Part of what makes R so valuable and powerful are all of the open-source packages people have developed for it. We won't be getting into installing packages here, but there is a separate page [here](/R/installing_packages){:target="_blank"} that covers some of the typical avenues for installing packages (and some of the common problems that may arise).
 
 
 ---
@@ -24,11 +14,41 @@ This module is designed for those that are either completely new to R, or have s
 <br>
 
 # Accessing our R Cloud environment
+# R Studio Cloud Setup
+1. Go to the [R Studio Cloud website](https://posit.cloud/) and create a new account.   
+
+<p align="center">
+  <img width=50% height=50% src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/R1.png">
+</p>
+
+2. Register using an email that you can verify from your mobile phone, then log in.
+
+3. In the top left, select your workspace, and on the right, you will find "New Project" -> "New Project from GitHub pages."
+
+<p align="center">
+  <img width=70% height=70% src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/R2.png">
+</p>
+
+4. If you don't save the project as a permanent copy before closing RStudio Cloud, you will lose everything ^^
+
+<p align="center">
+  <img src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/salvare_progetto.png">
+</p>
+
+
+
+---
+---
+
 
 
 
 # RStudio layout
-Whether you are using the binder from above, or installed R and RStudio with conda as described on [this page](/R/managing-r-and-rstudio-with-conda){:target="_blank"}, we now want to be working in RStudio. The typical RStudio has 4 main panes, as numbered above: 1) console; 2) source; 3) Environment; and 4) Files, Plots, Packages, etc. (If you don't have 4 panes, click the icon with the green plus sign at the top-left, then "R Script", and it should open the text editor pane.)
+
+<p align="center">
+  <img width=70% height=70% src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/Rlayout.png">
+</p>
+The typical RStudio has 4 main panes, as numbered above: 1) console; 2) source; 3) Environment; and 4) Files, Plots, Packages, etc. (If you don't have 4 panes, click the icon with the green plus sign at the top-left, then "R Script", and it should open the text editor pane.)
 
 1. The "console" is where you can run commands just as though you were working in an R environment at a command line, and it is also where results will print out. 
 2. The "source" pane acts as a sort-of interactive text editor within which you can write out and save all of your commands, and then call them when you'd like. This is one of the reasons R Studio is great, you're constantly building up your notes file as you work, without any added effort needed. If you want to run a command written in the source file, while on the line of the command press **`Cmd + Enter`** or **`Ctrl + Enter`**, or you can highlight a section and do the same to run that section. 
@@ -41,30 +61,18 @@ Here we're going to be doing our work in the "console" area. To start, let's see
 ?getwd
 ```
 
-<center><img src="../images/binder-R-getwd-help.png"></center>
+
 <br>
 And notice the pane at the bottom right now shows our help info for this function.  
 <br>
 
 ---
 <br>
-# Some practice data
-**If you are not using the binder environment**, but want to follow along with this page, copy and paste the following commands into your terminal to get set up with a small, temporary working directory that has the files we'll be working with. If you're unfamiliar with working at the command line, and would like to get to know it better, consider running through [the Unix crash course here](/unix/unix-intro){:target="_blank"} when you can 🙂
 
-<center><b>SKIP THESE COMMANDS IF YOU ARE WORKING IN THE BINDER ENVIRONMENT SHOWN IN THE PICTURE ABOVE</b></center><br>
 
-```
-cd ~
-curl -O https://AstrobioMike.github.io/tutorial_files/R_basics_temp.tar.gz
-tar -xvf R_basics_temp.tar.gz
-rm R_basics_temp.tar.gz
-cd R_basics_temp
-```
+# Some practice data 
 
-<br>
 
----
-<br>
 
 # Setting up our working environment
 Just like when working at the command line, or pointing to files in a graphical user interface program, we need to be aware of "where" we are in our computer when working in R. The **`getwd()`** and **`setwd()`** help us do this in R. Commands in R typically take this structure, with the command being followed by parentheses (so that's how we'll be listing them for the most part here). Inside those parentheses is where the arguments to the command would go if there are any. In the case of **`getwd()`** no arguments are needed as it is just going to tell us where we currently are:
@@ -621,136 +629,5 @@ less -S KEGG_annotated.tsv
 ---
 <br>
 
-# BONUS - filtering and piping with the tidyverse
-
-The [tidyverse](https://www.tidyverse.org/){:target="_blank"} is a collection of R packages for data science. It groups together many incredible useful packages into just one package for us to install and load. There is lots [to learn](https://www.tidyverse.org/learn/){:target="_blank"} about the tidyverse, but here we are just going to look at two things: how we can "pipe" commands together, and how we can filter or subset tables in a more intuitive fashion that we saw above. 
-
-If you are using the binder from above, or a conda-created environment made following the [managing R and RStudio with conda page](/R/managing-r-and-rstudio-with-conda){:target="_blank"}, you will already have the tidyverse package available and can just load it in R by running this:
-
-```R
-library(tidyverse)
-```
-
-If you don't have it available, consider creating doing the conda installation as detailed here, or you will likely be able to install it with the one-line command on [this page](https://www.tidyverse.org/){:target="_blank"}. 
-
-Now that we have that loaded, we're going to look at doing some filtering the tidyverse way.
-
-We'll be using the iris dataset, which we have loaded and get get some info on like so:
-
-```R
-dim(iris)
-# [1] 150   5
-
-head(iris)
-#   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
-# 1          5.1         3.5          1.4         0.2  setosa
-# 2          4.9         3.0          1.4         0.2  setosa
-# 3          4.7         3.2          1.3         0.2  setosa
-# 4          4.6         3.1          1.5         0.2  setosa
-# 5          5.0         3.6          1.4         0.2  setosa
-# 6          5.4         3.9          1.7         0.4  setosa
-```
-
-This is a dataset of informatoin about flowers that has 150 rows.
-
-Let's say we wanted to subset down to only include rows where the Sepal.Length was fewer than 4.5 (not sure what units these are, probably mm ¯\\\_(ツ)\_/¯). The way we could do this with base R would look something like this:
-
-```R
-iris[iris["Sepal.Length"] < 4.5, ]
-#    Sepal.Length Sepal.Width Petal.Length Petal.Width Species
-# 9           4.4         2.9          1.4         0.2  setosa
-# 14          4.3         3.0          1.1         0.1  setosa
-# 39          4.4         3.0          1.3         0.2  setosa
-# 43          4.4         3.2          1.3         0.2  setosa
-```
-
-Where we are givig our subsetting brackets, then building a true/false vector of what we want based on the expression in front of the comma, `iris["Sepal.Length"] < 4.5`, saying which rows we want to keep (those that yield true from that expression), and implcitly saying we all columns by leaving the argument after the comma blank.
-
-Which is fine, it gets the job done. But it's kind of annoying to read and annoying to type, and it's the simplest case of how many things we might want to be filtering on. 
-
-Here is the tidyverse way:
-
-```R
-iris %>% filter(Sepal.Length < 4.5)
-#   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
-# 1          4.4         2.9          1.4         0.2  setosa
-# 2          4.3         3.0          1.1         0.1  setosa
-# 3          4.4         3.0          1.3         0.2  setosa
-# 4          4.4         3.2          1.3         0.2  setosa
-```
-
-We've introduced two concepts there: the `filter()` function that comes packaged with tidyverse; and the "pipe" `%>%` which allows us to string together objects and commands in an arguably more inuitive fashion.
-
-We also could run this as:
-
-```R
-filter(iris, Sepal.Length < 4.5)
-```
-
-And get the samet thing, but as we want to stick more things together, it's generally more intuitive for most people to start with the initial object first, and then keep "piping" it (with the `%>%` characters) into more functions (similar to how things work at a [unix-like command line](/unix/unix-intro){:target="_blank"}).
-
-Now let's say we want to filter for Sepal.Lengh being greater than 6, Petal.Length being greater than or equal to 4.8, and only get those that are of the species *versicolor*:
-
-```R
-iris %>% filter(Sepal.Length > 6, Petal.Length >= 4.8, Species == "versicolor")
-#   Sepal.Length Sepal.Width Petal.Length Petal.Width    Species
-# 1          6.9         3.1          4.9         1.5 versicolor
-# 2          6.3         2.5          4.9         1.5 versicolor
-# 3          6.8         2.8          4.8         1.4 versicolor
-# 4          6.7         3.0          5.0         1.7 versicolor
-```
-
-That above would be start to get pretty ugly to write out in a base R fashion. 
-
-Say we also wanted to then just take the Sepal.Length and Petal.Length columns, we could pipe the end of that into the `select()` function, which let's us filter columns, like so:
-
-```R
-iris %>% filter(Sepal.Length > 6, Petal.Length >= 4.8, Species == "versicolor") %>% 
-    select(Sepal.Length, Petal.Length)
-#   Sepal.Length Petal.Length
-# 1          6.9          4.9
-# 2          6.3          4.9
-# 3          6.8          4.8
-# 4          6.7          5.0
-```
-
-> Note that we can return after the `%>%` symbol in R, to keep lines shorter and commands easier to read.
-
-Or say we just wanted to know how many there were after our length and species filtering:
-
-```R
-iris %>% filter(Sepal.Length > 6, Petal.Length >= 4.8, Species == "versicolor") %>% nrow()
-# [1] 4
-```
-
-Or if we wanted to pull just the Petal.Length column out as a vector, to then maybe summarize it, we could use the `pull()` function (which pulls out the wanted column and converts it to a vector), and then pipe that into the `summary()` function:
-
-```R
-iris %>% filter(Sepal.Length > 6, Petal.Length >= 4.8, Species == "versicolor") %>% 
-    pull(Sepal.Length) %>% summary()
-  #  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-  # 6.300   6.600   6.750   6.675   6.825   6.900
-```
-
-Or if we wanted to save that as a new object, we can still put the new object name and assignment opoerator in front of the whole thing. Like here is doing the filtering above, then storing it in a new object called:
-
-```R
-filtered_sepal_length <- iris %>% filter(Sepal.Length > 6, Petal.Length >= 4.8, Species == "versicolor") %>% 
-    pull(Sepal.Length)
-
-filtered_sepal_length
-# [1] 6.9 6.3 6.8 6.7
-```
-
-<br>
-
----
-<br>
-
-The wonderful `%>%` pipe comes from the [magrittr package](https://magrittr.tidyverse.org/){:target="_blank"}), and the filtering functions covered above come from the [dplyr package](https://dplyr.tidyverse.org/){:target="_blank"} (both components included with tidyverse). The above are probably the most commonly used, but there are more awesome functions that come from dplyr, which you can learn more about at [its page here](https://dplyr.tidyverse.org/){:target="_blank"} if wanted 🙂
-
----
----
-<br>
 <h1>Congrats on getting through the basics of R!</h1>
-R was not immediately intuitive to me (though the tidyverse helps a lot with that!), but it is extremely powerful, *many* statistical tools are developed to work within it, and it is great for figure generation in addition to just exploring our data. So it's likely worth the time getting to know R a bit if data science a part of your work 🙂
+
