@@ -618,3 +618,7 @@ less -S KEGG_annotated.tsv
 
 <h1>Congrats on getting through the basics of R!</h1>
 
+
+
+
+## If you want to do the original tutorial go to [here](https://astrobiomike.github.io/R/basics) **ps: thanks astrobiomike**
