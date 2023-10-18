@@ -1,0 +1,500 @@
+gene_ID	PC_ID	genome	KO_ID	KO_annotation	COG_ID	COG_annotation	rRNA
+0	PC_00001351	genome_2	K02338	DPO3B; DNA polymerase III subunit beta [EC:2.7.7.7]	COG0592	DNA polymerase III sliding clamp (beta) subunit, PCNA homolog	FALSE
+1	PC_00001459	genome_2	NA	NA	NA	NA	FALSE
+2	PC_00000891	genome_2	K01952	purL; phosphoribosylformylglycinamidine synthase [EC:6.3.5.3]	COG0046	Phosphoribosylformylglycinamidine (FGAM) synthase, synthetase domain	FALSE
+3	PC_00001838	genome_2	K00764	purF; amidophosphoribosyltransferase [EC:2.4.2.14]	COG0034	Glutamine phosphoribosylpyrophosphate amidotransferase	FALSE
+4	PC_00000967	genome_2	K02469	gyrA; DNA gyrase subunit A [EC:5.99.1.3]	COG0188	DNA gyrase/topoisomerase IV, subunit A	FALSE
+5	PC_00001291	genome_2	NA	NA	COG0457	Tetratricopeptide (TPR) repeat	FALSE
+6	PC_00001130	genome_2	K18979	queG; epoxyqueuosine reductase [EC:1.17.99.6]	COG1600	Epoxyqueuosine reductase  QueG (queuosine biosynthesis)	FALSE
+7	PC_00002029	genome_2	NA	NA	NA	NA	FALSE
+8	PC_00000224	genome_2	NA	NA	COG2928	Uncharacterized membrane protein	FALSE
+9	PC_00000474	genome_2	K03625	nusB; N utilization substance protein B	COG0781	Transcription termination factor NusB	FALSE
+10	PC_00000955	genome_2	K03110	ftsY; fused signal recognition particle receptor	COG0552	Signal recognition particle GTPase	FALSE
+11	PC_00000896	genome_2	K07315	rsbU_P; phosphoserine phosphatase RsbU/P [EC:3.1.3.3]	COG2208	Serine phosphatase RsbU, regulator of sigma subunit	FALSE
+12	PC_00000950	genome_2	K01755	argH; argininosuccinate lyase [EC:4.3.2.1]	COG0165	Argininosuccinate lyase	FALSE
+13	PC_00000008	genome_2	NA	NA	COG0724	 RNA recognition motif (RRM) domain	FALSE
+14	PC_00001123	genome_2	K05539	dusA; tRNA-dihydrouridine synthase A [EC:1.-.-.-]	COG0042	tRNA-dihydrouridine synthase	FALSE
+15	PC_00001433	genome_2	K07305	msrB; peptide-methionine (R)-S-oxide reductase [EC:1.8.4.12]	COG0229	Peptide methionine sulfoxide reductase MsrB	FALSE
+16	PC_00000957	genome_2	K07007	uncharacterized protein	COG2081	Predicted flavoprotein YhiN	FALSE
+17	PC_00013765	genome_2	NA	NA	NA	NA	FALSE
+18	PC_00001549	genome_2	K02653	pilC; type IV pilus assembly protein PilC	COG1459	Type II secretory pathway, component PulF	FALSE
+19	PC_00001650	genome_2	K02669	pilT; twitching motility protein PilT	COG2805	Tfp pilus assembly protein PilT, pilus retraction ATPase	FALSE
+20	PC_00000073	genome_2	K02652	pilB; type IV pilus assembly protein PilB	COG2804	Type II secretory pathway ATPase GspE/PulE or T4P pilus assembly pathway ATPase PilB	FALSE
+21	PC_00000962	genome_2	K03687	GRPE; molecular chaperone GrpE	COG0576	Molecular chaperone GrpE (heat shock protein)	FALSE
+22	PC_00000469	genome_2	K03686	dnaJ; molecular chaperone DnaJ	COG0484	DnaJ-class molecular chaperone with C-terminal Zn finger domain	FALSE
+23	PC_00001175	genome_2	NA	NA	COG0425	TusA-related sulfurtransferase	FALSE
+24	PC_00000132	genome_2	K06949	rsgA; ribosome biogenesis GTPase / thiamine phosphate phosphatase [EC:3.6.1.- 3.1.3.100]	COG1162	Putative ribosome biogenesis GTPase RsgA	FALSE
+25	PC_00000285	genome_2	K09747	uncharacterized protein	COG0718	Conserved DNA-binding protein YbaB (function unknown)	FALSE
+26	PC_00000616	genome_2	K00075	murB; UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]	COG0812	UDP-N-acetylenolpyruvoylglucosamine reductase	FALSE
+27	PC_00000688	genome_2	K01924	murC; UDP-N-acetylmuramate--alanine ligase [EC:6.3.2.8]	COG0773	UDP-N-acetylmuramate-alanine ligase	FALSE
+28	PC_00000351	genome_2	K00150	gap2; glyceraldehyde-3-phosphate dehydrogenase (NAD(P)) [EC:1.2.1.59]	COG0057	Glyceraldehyde-3-phosphate dehydrogenase/erythrose-4-phosphate dehydrogenase	FALSE
+29	PC_00001316	genome_2	K00946	thiL; thiamine-monophosphate kinase [EC:2.7.4.16]	COG0611	Thiamine monophosphate kinase	FALSE
+30	PC_00000720	genome_2	NA	NA	COG0652	Peptidyl-prolyl cis-trans isomerase (rotamase) - cyclophilin family	FALSE
+31	PC_00000218	genome_2	K02356	efp; elongation factor P	COG0231	Translation elongation factor P (EF-P)/translation initiation factor 5A (eIF-5A)	FALSE
+32	PC_00000497	genome_2	K02160	accB; acetyl-CoA carboxylase biotin carboxyl carrier protein	COG0511	Biotin carboxyl carrier protein	FALSE
+33	PC_00001024	genome_2	K00097	pdxA; 4-hydroxythreonine-4-phosphate dehydrogenase [EC:1.1.1.262]	COG1995	4-hydroxy-L-threonine phosphate dehydrogenase PdxA	FALSE
+34	PC_00000919	genome_2	NA	NA	COG0451	Nucleoside-diphosphate-sugar epimerase	FALSE
+35	PC_00000436	genome_2	NA	NA	COG1403	5-methylcytosine-specific restriction endonuclease McrA	FALSE
+36	PC_00000963	genome_2	NA	NA	COG0553	Superfamily II DNA or RNA helicase, SNF2 family	FALSE
+37	PC_00002055	genome_2	NA	NA	NA	NA	FALSE
+38	PC_00001333	genome_2	NA	NA	NA	NA	FALSE
+39	PC_00001185	genome_2	K07120	uncharacterized protein	COG3180	Uncharacterized membrane protein AbrB, regulator of aidB expression	FALSE
+40	PC_00002037	genome_2	NA	NA	NA	NA	FALSE
+41	PC_00001490	genome_2	NA	NA	NA	NA	FALSE
+42	PC_00002745	genome_2	NA	NA	NA	NA	FALSE
+43	PC_00000732	genome_2	NA	NA	COG0075	Archaeal aspartate aminotransferase or a related aminotransferase, includes purine catabolism protein PucG	FALSE
+44	PC_00001295	genome_2	K02188	cbiD; cobalt-precorrin-5B (C1)-methyltransferase [EC:2.1.1.195]	COG1903	Cobalamin biosynthesis protein CbiD	FALSE
+45	PC_00000419	genome_2	K01951	guaA; GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]	COG0518!!!COG0519	GMP synthase - Glutamine amidotransferase domain!!!GMP synthase, PP-ATPase domain/subunit	FALSE
+46	PC_00005536	genome_2	NA	NA	NA	NA	FALSE
+47	PC_00009665	genome_2	NA	NA	NA	NA	FALSE
+48	PC_00004905	genome_2	NA	NA	NA	NA	FALSE
+49	PC_00000312	genome_2	NA	NA	NA	NA	FALSE
+50	PC_00002101	genome_2	NA	NA	NA	NA	FALSE
+51	PC_00001107	genome_2	K05515	mrdA; penicillin-binding protein 2 [EC:3.4.16.4]	COG0768	Cell division protein FtsI/penicillin-binding protein 2	FALSE
+52	PC_00000486	genome_2	NA	NA	COG0438	Glycosyltransferase involved in cell wall bisynthesis	FALSE
+53	PC_00000088	genome_2	K06118	SQD1; UDP-sulfoquinovose synthase [EC:3.13.1.1]	COG0451	Nucleoside-diphosphate-sugar epimerase	FALSE
+54	PC_00000013	genome_2	NA	NA	NA	NA	FALSE
+55	PC_00000945	genome_2	K03149	thiG; thiazole synthase [EC:2.8.1.10]	COG2022	Thiamin biosynthesis thiazole synthase ThiGH, ThiG subunit	FALSE
+56	PC_00002113	genome_2	NA	NA	NA	NA	FALSE
+57	PC_00000752	genome_2	NA	NA	COG0457	Tetratricopeptide (TPR) repeat	FALSE
+58	PC_00000170	genome_2	K02887	RP-L20; large subunit ribosomal protein L20	COG0292	Ribosomal protein L20	FALSE
+59	PC_00001405	genome_2	K02916	RP-L35; large subunit ribosomal protein L35	COG0291	Ribosomal protein L35	FALSE
+60	PC_00001380	genome_2	NA	NA	COG2385	Peptidoglycan hydrolase (amidase) enhancer domain	FALSE
+61	PC_00001119	genome_2	K19003	mgdA; 1,2-diacylglycerol 3-beta-glucosyltransferase [EC:2.4.1.336]	COG1215	Glycosyltransferase, catalytic subunit of cellulose synthase and poly-beta-1,6-N-acetylglucosamine synthase	FALSE
+62	PC_00000747	genome_2	K02343	DPO3G; DNA polymerase III subunit gamma/tau [EC:2.7.7.7]	COG2812	DNA polymerase III, gamma/tau subunits	FALSE
+63	PC_00000802	genome_2	NA	NA	COG1842	Phage shock protein A	FALSE
+64	PC_00000502	genome_2	K03544	clpX; ATP-dependent Clp protease ATP-binding subunit ClpX	COG1219	ATP-dependent protease Clp, ATPase subunit	FALSE
+65	PC_00000005	genome_2	K01358	clpP; ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	COG0740	ATP-dependent protease ClpP, protease subunit	FALSE
+66	PC_00000715	genome_2	K03545	tig; trigger factor	COG0544	FKBP-type peptidyl-prolyl cis-trans isomerase (trigger factor)	FALSE
+67	PC_00000680	genome_2	K00133	asd; aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]	COG0136	Aspartate-semialdehyde dehydrogenase	FALSE
+68	PC_00001054	genome_2	K01714	dapA; 4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	COG0329	Dihydrodipicolinate synthase/N-acetylneuraminate lyase	FALSE
+69	PC_00000870	genome_2	K12574	rnj; ribonuclease J [EC:3.1.-.-]	COG0595	mRNA degradation ribonuclease J1/J2	FALSE
+70	PC_00003770	genome_2	NA	NA	NA	NA	FALSE
+71	PC_00002078	genome_2	K04075	tilS; tRNA(Ile)-lysidine synthase [EC:6.3.4.19]	COG0037	tRNA(Ile)-lysidine synthase TilS/MesJ	FALSE
+72	PC_00000654	genome_2	NA	NA	COG2070	NAD(P)H-dependent flavin oxidoreductase YrpB, nitropropane dioxygenase family	FALSE
+73	PC_00001996	genome_2	K08972	putative membrane protein	COG1950	Uncharacterized membrane protein YvlD, DUF360 family	FALSE
+74	PC_00000054	genome_2	K03702	uvrB; excinuclease ABC subunit B	COG0556	Excinuclease UvrABC helicase subunit UvrB	FALSE
+75	PC_00000104	genome_2	K00928	lysC; aspartate kinase [EC:2.7.2.4]	COG0527!!!COG0527	Aspartokinase!!!Aspartokinase	FALSE
+76	PC_00005895	genome_2	NA	NA	COG1462	Curli biogenesis system outer membrane secretion channel CsgG	FALSE
+77	PC_00001041	genome_2	K02340	DPO3D1; DNA polymerase III subunit delta [EC:2.7.7.7]	COG1466	DNA polymerase III, delta subunit	FALSE
+78	PC_00001539	genome_2	K06042	cobH-cbiC; precorrin-8X/cobalt-precorrin-8 methylmutase [EC:5.4.99.61 5.4.99.60]	COG2082	Precorrin isomerase	FALSE
+79	PC_00000047	genome_2	K03555	mutS; DNA mismatch repair protein MutS	COG0249	DNA mismatch repair ATPase MutS	FALSE
+80	PC_00001159	genome_2	K02724	psbZ; photosystem II PsbZ protein	NA	NA	FALSE
+81	PC_00000562	genome_2	K00794	ribH; 6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78]	COG0054	6,7-dimethyl-8-ribityllumazine synthase (Riboflavin synthase beta chain)	FALSE
+82	PC_00003830	genome_2	NA	NA	COG0346	Catechol 2,3-dioxygenase or other lactoylglutathione lyase family enzyme	FALSE
+83	PC_00000063	genome_2	NA	NA	COG0454	N-acetyltransferase, GNAT superfamily (includes histone acetyltransferase HPA2)	FALSE
+84	PC_00002249	genome_2	NA	NA	COG0438	Glycosyltransferase involved in cell wall bisynthesis	FALSE
+85	PC_00001021	genome_2	K03070	secA; preprotein translocase subunit SecA	COG0653!!!COG0653	Preprotein translocase subunit SecA (ATPase, RNA helicase)!!!Preprotein translocase subunit SecA (ATPase, RNA helicase)	FALSE
+86	PC_00000418	genome_2	K00640	cysE; serine O-acetyltransferase [EC:2.3.1.30]	COG1045	Serine acetyltransferase	FALSE
+87	PC_00001208	genome_2	K07978	plmA; GntR family transcriptional regulator	COG1725	DNA-binding transcriptional regulator YhcF, GntR family	FALSE
+88	PC_00001674	genome_2	K01061	E3.1.1.45; carboxymethylenebutenolidase [EC:3.1.1.45]	COG0412	Dienelactone hydrolase	FALSE
+89	PC_00000329	genome_2	K02520	infC; translation initiation factor IF-3	COG0290	Translation initiation factor IF-3	FALSE
+90	PC_00000942	genome_2	K00791	miaA; tRNA dimethylallyltransferase [EC:2.5.1.75]	COG0324	tRNA A37 N6-isopentenylltransferase MiaA	FALSE
+91	PC_00000536	genome_2	K02470	gyrB; DNA gyrase subunit B [EC:5.99.1.3]	COG0187	DNA gyrase/topoisomerase IV, subunit B	FALSE
+92	PC_00002266	genome_2	NA	NA	NA	NA	FALSE
+93	PC_00000651	genome_2	K06199	crcB; CrcB protein	COG0239	Fluoride ion exporter CrcB/FEX, affects chromosome condensation	FALSE
+94	PC_00001262	genome_2	K06199	crcB; CrcB protein	COG0239	Fluoride ion exporter CrcB/FEX, affects chromosome condensation	FALSE
+95	PC_00000425	genome_2	K00432	gpx; glutathione peroxidase [EC:1.11.1.9]	COG0386	Glutathione peroxidase, house-cleaning role in reducing lipid peroxides	FALSE
+96	PC_00001126	genome_2	K06213	mgtE; magnesium transporter	COG2239	Mg/Co/Ni transporter MgtE (contains CBS domain)	FALSE
+97	PC_00000982	genome_2	K03087	SIG2; RNA polymerase nonessential primary-like sigma factor	COG0568	DNA-directed RNA polymerase, sigma subunit (sigma70/sigma32)	FALSE
+98	PC_00000127	genome_2	NA	NA	COG2267	Lysophospholipase, alpha-beta hydrolase superfamily	FALSE
+99	PC_00001701	genome_2	NA	NA	COG0841	Multidrug efflux pump subunit AcrB	FALSE
+100	PC_00001737	genome_2	NA	NA	COG0845	Multidrug efflux pump subunit AcrA (membrane-fusion protein)	FALSE
+101	PC_00000114	genome_2	K03575	mutY; A/G-specific adenine glycosylase [EC:3.2.2.-]	COG1051!!!COG1194	ADP-ribose pyrophosphatase YjhB, NUDIX family!!!Adenine-specific DNA glycosylase, acts on AG and A-oxoG pairs	FALSE
+102	PC_00001393	genome_2	K00847	E2.7.1.4; fructokinase [EC:2.7.1.4]	COG0524	Sugar or nucleoside kinase, ribokinase family	FALSE
+103	PC_00004188	genome_2	NA	NA	COG0524	Sugar or nucleoside kinase, ribokinase family	FALSE
+104	PC_00002930	genome_2	K01915	glnA; glutamine synthetase [EC:6.3.1.2]	COG0174	Glutamine synthetase	FALSE
+105	PC_00008433	genome_2	NA	NA	NA	NA	FALSE
+106	PC_00003019	genome_2	K03307	TC.SSS; solute:Na+ symporter, SSS family	COG0591	Na+/proline symporter	FALSE
+107	PC_00001437	genome_2	K06925	tsaE; tRNA threonylcarbamoyladenosine biosynthesis protein TsaE	COG0802	tRNA A37 threonylcarbamoyladenosine biosynthesis protein TsaE	FALSE
+108	PC_00000828	genome_2	K01251	E3.3.1.1; adenosylhomocysteinase [EC:3.3.1.1]	COG0499	S-adenosylhomocysteine hydrolase	FALSE
+109	PC_00000573	genome_2	NA	NA	COG0586	Uncharacterized membrane protein DedA, SNARE-associated domain	FALSE
+110	PC_00000564	genome_2	K03111	ssb; single-strand DNA-binding protein	COG0629	Single-stranded DNA-binding protein	FALSE
+111	PC_00000060	genome_2	K03569	mreB; rod shape-determining protein MreB and related proteins	COG1077	Actin-like ATPase involved in cell morphogenesis	FALSE
+112	PC_00001212	genome_2	K03570	mreC; rod shape-determining protein MreC	COG1792	Cell shape-determining protein MreC	FALSE
+113	PC_00001503	genome_2	NA	NA	NA	NA	FALSE
+114	PC_00000672	genome_2	K17244	chiE; putative chitobiose transport system substrate-binding protein	COG1653	ABC-type glycerol-3-phosphate transport system, periplasmic component	FALSE
+115	PC_00000010	genome_2	NA	NA	COG0745	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain	FALSE
+116	PC_00000916	genome_2	K04567	KARS; lysyl-tRNA synthetase, class II [EC:6.1.1.6]	COG1190	Lysyl-tRNA synthetase (class II)	FALSE
+117	PC_00000145	genome_2	NA	NA	NA	NA	FALSE
+118	PC_00002071	genome_2	NA	NA	COG1842	Phage shock protein A	FALSE
+119	PC_00002311	genome_2	NA	NA	NA	NA	FALSE
+120	PC_00001550	genome_2	NA	NA	COG4301	Uncharacterized conserved protein, contains predicted SAM-dependent methyltransferase domain	FALSE
+121	PC_00001555	genome_2	NA	NA	COG1262	Formylglycine-generating enzyme, required for sulfatase activity, contains SUMF1/FGE domain	FALSE
+122	PC_00001722	genome_2	NA	NA	COG0515	Serine/threonine protein kinase	FALSE
+123	PC_00000085	genome_2	K03664	smpB; SsrA-binding protein	COG0691	tmRNA-binding protein	FALSE
+124	PC_00000797	genome_2	K03551	ruvB; holliday junction DNA helicase RuvB [EC:3.6.4.12]	COG2255	Holliday junction resolvasome RuvABC, ATP-dependent DNA helicase subunit	FALSE
+125	PC_00000412	genome_2	NA	NA	COG0457	Tetratricopeptide (TPR) repeat	FALSE
+126	PC_00000656	genome_2	NA	NA	COG1473	Metal-dependent amidase/aminoacylase/carboxypeptidase	FALSE
+127	PC_00001997	genome_2	NA	NA	NA	NA	FALSE
+128	PC_00001228	genome_2	NA	NA	COG1413	HEAT repeat	FALSE
+129	PC_00000092	genome_2	K03147	thiC; phosphomethylpyrimidine synthase [EC:4.1.99.17]	COG0422	Thiamine biosynthesis protein ThiC	FALSE
+130	PC_00000664	genome_2	K00615	E2.2.1.1; transketolase [EC:2.2.1.1]	COG0021	Transketolase	FALSE
+131	PC_00000633	genome_2	K09458	fabF; 3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]	COG0304	3-oxoacyl-(acyl-carrier-protein) synthase	FALSE
+132	PC_00000156	genome_2	K02078	acpP; acyl carrier protein	COG0236	Acyl carrier protein	FALSE
+133	PC_00001158	genome_2	K02691	psaC; photosystem I subunit VII	COG1143	Formate hydrogenlyase subunit 6/NADH:ubiquinone oxidoreductase 23 kD subunit (chain I)	FALSE
+134	PC_00000890	genome_2	K00820	glmS; glucosamine--fructose-6-phosphate aminotransferase (isomerizing) [EC:2.6.1.16]	COG0449	Glucosamine 6-phosphate synthetase, contains amidotransferase and phosphosugar isomerase domains	FALSE
+135	PC_00004381	genome_2	K07064	uncharacterized protein	COG1848	Predicted nucleic acid-binding protein, contains PIN domain	FALSE
+136	PC_00003506	genome_2	NA	NA	NA	NA	FALSE
+137	PC_00000074	genome_2	NA	NA	COG0471!!!COG0471!!!COG3273!!!COG3273	Di- and tricarboxylate transporter!!!Di- and tricarboxylate transporter!!!Uncharacterized conserved protein, contains PhoU and TrkA_C domains!!!Uncharacterized conserved protein, contains PhoU and TrkA_C domains	FALSE
+138	PC_00007774	genome_2	NA	NA	COG1216	Glycosyltransferase, GT2 family	FALSE
+139	PC_00012318	genome_2	NA	NA	NA	NA	FALSE
+140	PC_00007439	genome_2	NA	NA	NA	NA	FALSE
+141	PC_00010397	genome_2	NA	NA	NA	NA	FALSE
+142	PC_00013486	genome_2	NA	NA	NA	NA	FALSE
+143	PC_00013833	genome_2	NA	NA	NA	NA	FALSE
+144	PC_00007240	genome_2	NA	NA	NA	NA	FALSE
+145	PC_00001799	genome_2	K02377	TSTA3; GDP-L-fucose synthase [EC:1.1.1.271]	COG0451	Nucleoside-diphosphate-sugar epimerase	FALSE
+146	PC_00001740	genome_2	K01711	gmd; GDPmannose 4,6-dehydratase [EC:4.2.1.47]	COG1089	GDP-D-mannose dehydratase	FALSE
+147	PC_00006607	genome_2	NA	NA	COG2148	Sugar transferase involved in LPS biosynthesis (colanic, teichoic acid)	FALSE
+148	PC_00003007	genome_2	K01991	ABC-2.OM; polysaccharide biosynthesis/export protein	COG1596	Periplasmic protein involved in polysaccharide export, contains SLBB domain of the beta-grasp fold	FALSE
+149	PC_00003277	genome_2	NA	NA	COG0489!!!COG3206	Chromosome partitioning ATPase, Mrp family, contains Fe-S cluster!!!Uncharacterized protein involved in exopolysaccharide biosynthesis	FALSE
+150	PC_00003215	genome_2	NA	NA	COG2453	Protein-tyrosine phosphatase	FALSE
+151	PC_00003643	genome_2	NA	NA	NA	NA	FALSE
+152	PC_00008244	genome_2	NA	NA	NA	NA	FALSE
+153	PC_00011709	genome_2	NA	NA	NA	NA	FALSE
+154	PC_00003486	genome_2	NA	NA	COG1215	Glycosyltransferase, catalytic subunit of cellulose synthase and poly-beta-1,6-N-acetylglucosamine synthase	FALSE
+155	PC_00003098	genome_2	NA	NA	COG0156!!!COG0236!!!COG0604!!!COG1028!!!COG3321	7-keto-8-aminopelargonate synthetase or related enzyme!!!Acyl carrier protein!!!NADPH:quinone reductase or related Zn-dependent oxidoreductase!!!NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family!!!Acyl transferase domain in polyketide synthase (PKS) enzymes	FALSE
+156	PC_00003115	genome_2	K03429	ugtP; processive 1,2-diacylglycerol beta-glucosyltransferase [EC:2.4.1.315]	COG0707	UDP-N-acetylglucosamine:LPS N-acetylglucosamine transferase	FALSE
+157	PC_00000120	genome_2	K08678	UXS1; UDP-glucuronate decarboxylase [EC:4.1.1.35]	COG0451	Nucleoside-diphosphate-sugar epimerase	FALSE
+158	PC_00000905	genome_2	K00971	manC; mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]	COG0662!!!COG0836	Mannose-6-phosphate isomerase, cupin superfamily!!!Mannose-1-phosphate guanylyltransferase	FALSE
+159	PC_00006663	genome_2	NA	NA	NA	NA	FALSE
+160	PC_00012024	genome_2	NA	NA	NA	NA	FALSE
+161	PC_00003728	genome_2	NA	NA	NA	NA	FALSE
+162	PC_00003728	genome_2	NA	NA	COG1669	Predicted nucleotidyltransferase	FALSE
+163	PC_00004434	genome_2	NA	NA	COG1708	Predicted nucleotidyltransferase	FALSE
+164	PC_00005738	genome_2	NA	NA	COG1598	Predicted nuclease of the RNAse H fold, HicB family	FALSE
+165	PC_00010777	genome_2	K18429	legG; GDP/UDP-N,N_-diacetylbacillosamine 2-epimerase (hydrolysing) [EC:3.2.1.184]	COG0381	UDP-N-acetylglucosamine 2-epimerase	FALSE
+166	PC_00009928	genome_2	NA	NA	COG1083	CMP-N-acetylneuraminic acid synthetase	FALSE
+167	PC_00011600	genome_2	K03980	murJ; putative peptidoglycan lipid II flippase	COG0728	Peptidoglycan biosynthesis protein MviN/MurJ, putative lipid II flippase	FALSE
+168	PC_00009966	genome_2	K02501	hisH; glutamine amidotransferase [EC:2.4.2.-]	COG0118	Imidazoleglycerol phosphate synthase glutamine amidotransferase subunit HisH	FALSE
+169	PC_00006350	genome_2	NA	NA	COG2171	Tetrahydrodipicolinate N-succinyltransferase	FALSE
+170	PC_00013087	genome_2	K18430	legI; N,N_-diacetyllegionaminate synthase [EC:2.5.1.101]	COG2089	Sialic acid synthase SpsE, contains C-terminal SAF domain	FALSE
+171	PC_00009576	genome_2	NA	NA	COG2301	Citrate lyase beta subunit	FALSE
+172	PC_00012394	genome_2	K02500	hisF; cyclase [EC:4.1.3.-]	COG0107	Imidazole glycerol phosphate synthase subunit HisF	FALSE
+173	PC_00004881	genome_2	NA	NA	COG0037	tRNA(Ile)-lysidine synthase TilS/MesJ	FALSE
+174	PC_00006901	genome_2	K01953	asnB; asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	COG0367	Asparagine synthetase B (glutamine-hydrolyzing)	FALSE
+175	PC_00010840	genome_2	K19430	epsN; pyridoxal phosphate-dependent aminotransferase EpsN [EC:2.6.1.-]	COG0399!!!COG0517	dTDP-4-amino-4,6-dideoxygalactose transaminase!!!CBS domain	FALSE
+176	PC_00008813	genome_2	NA	NA	NA	NA	FALSE
+177	PC_00006436	genome_2	NA	NA	COG2089	Sialic acid synthase SpsE, contains C-terminal SAF domain	FALSE
+178	PC_00010330	genome_2	NA	NA	COG1083	CMP-N-acetylneuraminic acid synthetase	FALSE
+179	PC_00007036	genome_2	NA	NA	COG2148	Sugar transferase involved in LPS biosynthesis (colanic, teichoic acid)	FALSE
+180	PC_00010272	genome_2	NA	NA	COG0381	UDP-N-acetylglucosamine 2-epimerase	FALSE
+181	PC_00010364	genome_2	NA	NA	COG0673	Predicted dehydrogenase	FALSE
+182	PC_00008966	genome_2	NA	NA	NA	NA	FALSE
+183	PC_00008291	genome_2	NA	NA	COG1028	NAD(P)-dependent dehydrogenase, short-chain alcohol dehydrogenase family	FALSE
+184	PC_00007222	genome_2	NA	NA	NA	NA	FALSE
+185	PC_00009900	genome_2	NA	NA	NA	NA	FALSE
+186	PC_00002169	genome_2	NA	NA	COG1086	NDP-sugar epimerase, includes UDP-GlcNAc-inverting 4,6-dehydratase FlaA1 and capsular polysaccharide biosynthesis protein EpsC	FALSE
+187	PC_00000074	genome_2	NA	NA	COG0471!!!COG0471!!!COG0490!!!COG0569	Di- and tricarboxylate transporter!!!Di- and tricarboxylate transporter!!!K+/H+ antiporter YhaU, regulatory subunit KhtT!!!Trk K+ transport system, NAD-binding component	FALSE
+188	PC_00000667	genome_2	K02860	rimM; 16S rRNA processing protein RimM	COG0806	Ribosomal 30S subunit maturation factor RimM, required for 16S rRNA processing	FALSE
+189	PC_00001411	genome_2	NA	NA	NA	NA	FALSE
+190	PC_00000119	genome_2	K10716	kch; voltage-gated potassium channel	COG2126	Ribosomal protein L37E	FALSE
+191	PC_00011598	genome_2	NA	NA	COG3744	PIN domain nuclease, a component of toxin-antitoxin system (PIN domain)	FALSE
+192	PC_00007765	genome_2	NA	NA	COG4118	Antitoxin component of toxin-antitoxin stability system, DNA-binding transcriptional repressor	FALSE
+193	PC_00002077	genome_2	K03685	rnc; ribonuclease III [EC:3.1.26.3]	COG0571	dsRNA-specific ribonuclease	FALSE
+194	PC_00002187	genome_2	K03282	mscL; large conductance mechanosensitive channel	COG1970	Large-conductance mechanosensitive channel	FALSE
+195	PC_00000223	genome_2	NA	NA	NA	NA	FALSE
+196	PC_00000618	genome_2	NA	NA	NA	NA	FALSE
+197	PC_00000999	genome_2	K00688	PYG; glycogen phosphorylase [EC:2.4.1.1]	COG0058	Glucan phosphorylase	FALSE
+198	PC_00000727	genome_2	NA	NA	COG0475	Kef-type K+ transport system, membrane component KefB	FALSE
+199	PC_00001353	genome_2	NA	NA	NA	NA	FALSE
+200	PC_00000717	genome_2	NA	NA	COG2267	Lysophospholipase, alpha-beta hydrolase superfamily	FALSE
+201	PC_00000655	genome_2	NA	NA	COG2017	Galactose mutarotase or related enzyme	FALSE
+202	PC_00001576	genome_2	K11472	glcE; glycolate oxidase FAD binding subunit	COG0277	FAD/FMN-containing dehydrogenase	FALSE
+203	PC_00001394	genome_2	NA	NA	COG3395	Uncharacterized conserved protein YgbK, DUF1537 family	FALSE
+204	PC_00003642	genome_2	NA	NA	COG0346	Catechol 2,3-dioxygenase or other lactoylglutathione lyase family enzyme	FALSE
+205	PC_00001548	genome_2	K11473	glcF; glycolate oxidase iron-sulfur subunit	COG0247	Fe-S oxidoreductase	FALSE
+206	PC_00000121	genome_2	K00031	IDH1; isocitrate dehydrogenase [EC:1.1.1.42]	COG0538	Isocitrate dehydrogenase	FALSE
+207	PC_00000969	genome_2	NA	NA	NA	NA	FALSE
+208	PC_00000485	genome_2	K21480	HO; heme oxygenase (biliverdin-producing, ferredoxin) [EC:1.14.15.20]	COG5398	Heme oxygenase	FALSE
+209	PC_00000704	genome_2	NA	NA	COG0438	Glycosyltransferase involved in cell wall bisynthesis	FALSE
+210	PC_00001687	genome_2	K06147	ABCB-BAC; ATP-binding cassette, subfamily B, bacterial	COG1132	ABC-type multidrug transport system, ATPase and permease component	FALSE
+211	PC_00009077	genome_2	NA	NA	COG0438	Glycosyltransferase involved in cell wall bisynthesis	FALSE
+212	PC_00002392	genome_2	NA	NA	COG0438	Glycosyltransferase involved in cell wall bisynthesis	FALSE
+213	PC_00002365	genome_2	NA	NA	COG0438	Glycosyltransferase involved in cell wall bisynthesis	FALSE
+214	PC_00001986	genome_2	NA	NA	COG0438!!!COG0707	Glycosyltransferase involved in cell wall bisynthesis!!!UDP-N-acetylglucosamine:LPS N-acetylglucosamine transferase	FALSE
+215	PC_00002854	genome_2	NA	NA	NA	NA	FALSE
+216	PC_00010579	genome_2	NA	NA	NA	NA	FALSE
+217	PC_00007153	genome_2	NA	NA	NA	NA	FALSE
+218	PC_00009016	genome_2	NA	NA	NA	NA	FALSE
+219	PC_00001036	genome_2	K03657	uvrD; DNA helicase II / ATP-dependent DNA helicase PcrA [EC:3.6.4.12]	COG0210	Superfamily I DNA or RNA helicase	FALSE
+220	PC_00002136	genome_2	K00970	pcnB; poly(A) polymerase [EC:2.7.7.19]	COG0617	tRNA nucleotidyltransferase/poly(A) polymerase	FALSE
+221	PC_00013237	genome_2	NA	NA	NA	NA	FALSE
+222	PC_00004940	genome_2	K01008	selD; selenide, water dikinase [EC:2.7.9.3]	COG0709!!!COG1252	Selenophosphate synthase!!!NADH dehydrogenase, FAD-containing subunit	FALSE
+223	PC_00000056	genome_2	K01784	galE; UDP-glucose 4-epimerase [EC:5.1.3.2]	COG1087	UDP-glucose 4-epimerase	FALSE
+224	PC_00000725	genome_2	K01892	HARS; histidyl-tRNA synthetase [EC:6.1.1.21]	COG0124	Histidyl-tRNA synthetase	FALSE
+225	PC_00001016	genome_2	K00012	UGDH; UDPglucose 6-dehydrogenase [EC:1.1.1.22]	COG1004	UDP-glucose 6-dehydrogenase	FALSE
+226	PC_00000048	genome_2	K08679	E5.1.3.6; UDP-glucuronate 4-epimerase [EC:5.1.3.6]	COG0451	Nucleoside-diphosphate-sugar epimerase	FALSE
+227	PC_00002382	genome_2	NA	NA	NA	NA	FALSE
+228	PC_00001408	genome_2	K02711	psbJ; photosystem II PsbJ protein	NA	NA	FALSE
+229	PC_00001406	genome_2	K02713	psbL; photosystem II PsbL protein	NA	NA	FALSE
+230	PC_00000082	genome_2	K02708	psbF; photosystem II cytochrome b559 subunit beta	NA	NA	FALSE
+231	PC_00000168	genome_2	K02707	psbE; photosystem II cytochrome b559 subunit alpha	NA	NA	FALSE
+232	PC_00000560	genome_2	NA	NA	COG4447	Uncharacterized protein related to plant photosystem II stability/assembly factor	FALSE
+233	PC_00001128	genome_2	NA	NA	COG1773	Rubredoxin	FALSE
+234	PC_00000228	genome_2	K05574	ndhC; NAD(P)H-quinone oxidoreductase subunit 3 [EC:1.6.5.3]	COG0838	NADH:ubiquinone oxidoreductase subunit 3 (chain A)	FALSE
+235	PC_00000803	genome_2	K05582	ndhK; NAD(P)H-quinone oxidoreductase subunit K [EC:1.6.5.3]	COG0377	NADH:ubiquinone oxidoreductase 20 kD subunit (chhain B) or related Fe-S oxidoreductase	FALSE
+236	PC_00001038	genome_2	K05581	ndhJ; NAD(P)H-quinone oxidoreductase subunit J [EC:1.6.5.3]	COG0852	NADH:ubiquinone oxidoreductase 27 kD subunit (chain C)	FALSE
+237	PC_00001072	genome_2	NA	NA	COG0391	Archaeal 2-phospho-L-lactate transferase/Bacterial gluconeogenesis factor, CofD/UPF0052 family	FALSE
+238	PC_00000869	genome_2	K02065	mlaF; phospholipid/cholesterol/gamma-HCH transport system ATP-binding protein	COG1127	ABC-type transporter Mla maintaining outer membrane lipid asymmetry, ATPase component MlaF	FALSE
+239	PC_00001363	genome_2	K02067	mlaD; phospholipid/cholesterol/gamma-HCH transport system substrate-binding protein	COG1463	ABC-type transporter Mla maintaining outer membrane lipid asymmetry, periplasmic component MlaD	FALSE
+240	PC_00000706	genome_2	K03404	chlD; magnesium chelatase subunit D [EC:6.6.1.1]	COG1239!!!COG1240	Mg-chelatase subunit ChlI!!!Mg-chelatase subunit ChlD	FALSE
+241	PC_00001457	genome_2	K00950	folK; 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]	COG0801	7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase	FALSE
+242	PC_00000128	genome_2	NA	NA	COG0494	8-oxo-dGTP pyrophosphatase MutT and related house-cleaning NTP pyrophosphohydrolases, NUDIX family	FALSE
+243	PC_00000128	genome_2	K01515	nudF; ADP-ribose pyrophosphatase [EC:3.6.1.13]	COG0494	8-oxo-dGTP pyrophosphatase MutT and related house-cleaning NTP pyrophosphohydrolases, NUDIX family	FALSE
+244	PC_00000139	genome_2	K01669	phrB; deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	Deoxyribodipyrimidine photolyase	FALSE
+245	PC_00000863	genome_2	NA	NA	COG0399	dTDP-4-amino-4,6-dideoxygalactose transaminase	FALSE
+246	PC_00001472	genome_2	NA	NA	COG1225	Peroxiredoxin	FALSE
+247	PC_00001267	genome_2	NA	NA	NA	NA	FALSE
+248	PC_00000776	genome_2	NA	NA	NA	NA	FALSE
+249	PC_00000882	genome_2	K01669	phrB; deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]	COG0415	Deoxyribodipyrimidine photolyase	FALSE
+250	PC_00000229	genome_2	K00208	fabI; enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	COG0623	Enoyl-[acyl-carrier-protein] reductase (NADH)	FALSE
+251	PC_00003012	genome_2	K08994	yneE; putative membrane protein	COG3781	Predicted membrane chloride channel, bestrophin family	FALSE
+252	PC_00000593	genome_2	K01693	hisB; imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]	COG0131	Imidazoleglycerol phosphate dehydratase HisB	FALSE
+253	PC_00001110	genome_2	K00464	diox1; all-trans-8_-apo-beta-carotenal 15,15_-oxygenase [EC:1.13.11.75]	COG3670	Carotenoid cleavage dioxygenase or a related enzyme	FALSE
+254	PC_00009999	genome_2	NA	NA	NA	NA	FALSE
+255	PC_00005808	genome_2	NA	NA	COG2931	Ca2+-binding protein, RTX toxin-related	FALSE
+256	PC_00005034	genome_2	NA	NA	COG2205	K+-sensing histidine kinase KdpD	FALSE
+257	PC_00006034	genome_2	NA	NA	COG2207	AraC-type DNA-binding domain and AraC-containing proteins	FALSE
+258	PC_00005154	genome_2	NA	NA	COG0745	DNA-binding response regulator, OmpR family, contains REC and winged-helix (wHTH) domain	FALSE
+259	PC_00001987	genome_2	NA	NA	COG3471	Predicted secreted (periplasmic) protein	FALSE
+260	PC_00002889	genome_2	NA	NA	COG0477	MFS family permease	FALSE
+261	PC_00001003	genome_2	NA	NA	COG1292	Choline-glycine betaine transporter	FALSE
+262	PC_00001266	genome_2	K00301	E1.5.3.1; sarcosine oxidase [EC:1.5.3.1]	COG0665	Glycine/D-amino acid oxidase (deaminating)	FALSE
+263	PC_00000895	genome_2	K00263	E1.4.1.9; leucine dehydrogenase [EC:1.4.1.9]	COG0334	Glutamate dehydrogenase/leucine dehydrogenase	FALSE
+264	PC_00000130	genome_2	NA	NA	NA	NA	FALSE
+265	PC_00001004	genome_2	K02428	rdgB; XTP/dITP diphosphohydrolase [EC:3.6.1.66]	COG0127	Inosine/xanthosine triphosphate pyrophosphatase, all-alpha NTP-PPase family	FALSE
+266	PC_00000697	genome_2	NA	NA	COG1109	Phosphomannomutase	FALSE
+267	PC_00001305	genome_2	NA	NA	COG2251	Predicted nuclease, RecB family	FALSE
+268	PC_00003494	genome_2	NA	NA	COG0354	Folate-binding Fe-S cluster repair protein YgfZ, possible role in tRNA modification	FALSE
+269	PC_00001099	genome_2	K00762	pyrE; orotate phosphoribosyltransferase [EC:2.4.2.10]	COG0461	Orotate phosphoribosyltransferase	FALSE
+270	PC_00000118	genome_2	NA	NA	NA	NA	FALSE
+271	PC_00000928	genome_2	NA	NA	COG1253	Hemolysin or related protein, contains CBS domains	FALSE
+272	PC_00000484	genome_2	NA	NA	COG0673	Predicted dehydrogenase	FALSE
+273	PC_00001031	genome_2	K07190	PHKA_B; phosphorylase kinase alpha/beta subunit	COG3387	Glucoamylase (glucan-1,4-alpha-glucosidase), GH15 family	FALSE
+274	PC_00000929	genome_2	K05946	tagA; N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase [EC:2.4.1.187]	COG1922	UDP-N-acetyl-D-mannosaminuronic acid transferase, WecB/TagA/CpsF family	FALSE
+275	PC_00000166	genome_2	K02712	psbK; photosystem II PsbK protein	NA	NA	FALSE
+276	PC_00000643	genome_2	K00773	tgt; queuine tRNA-ribosyltransferase [EC:2.4.2.29]	COG0343	Queuine/archaeosine tRNA-ribosyltransferase	FALSE
+277	PC_00002668	genome_2	K02233	E2.7.8.26; adenosylcobinamide-GDP ribazoletransferase [EC:2.7.8.26]	COG0368	Cobalamin synthase	FALSE
+278	PC_00002112	genome_2	NA	NA	COG2205	K+-sensing histidine kinase KdpD	FALSE
+279	PC_00000189	genome_2	NA	NA	NA	NA	FALSE
+280	PC_00002268	genome_2	K06999	phospholipase/carboxylesterase	COG0400	Predicted esterase	FALSE
+281	PC_00000814	genome_2	K00602	purH; phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10]	COG0138	AICAR transformylase/IMP cyclohydrolase PurH	FALSE
+282	PC_00000277	genome_2	NA	NA	NA	NA	FALSE
+283	PC_00000551	genome_2	NA	NA	COG2801	Transposase InsO and inactivated derivatives	FALSE
+284	PC_00000514	genome_2	K03527	ispH; 4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase [EC:1.17.7.4]	COG0761	4-Hydroxy-3-methylbut-2-enyl diphosphate reductase IspH	FALSE
+285	PC_00000478	genome_2	K03320	amt; ammonium transporter, Amt family	COG0004	Ammonia channel protein AmtB	FALSE
+286	PC_00000836	genome_2	K06206	sfsA; sugar fermentation stimulation protein A	COG1489	DNA-binding protein, stimulates sugar fermentation	FALSE
+287	PC_00000881	genome_2	K03980	murJ; putative peptidoglycan lipid II flippase	COG0728	Peptidoglycan biosynthesis protein MviN/MurJ, putative lipid II flippase	FALSE
+288	PC_00000239	genome_2	NA	NA	NA	NA	FALSE
+289	PC_00000420	genome_2	NA	NA	NA	NA	FALSE
+290	PC_00001215	genome_2	NA	NA	NA	NA	FALSE
+291	PC_00000103	genome_2	K00600	glyA; glycine hydroxymethyltransferase [EC:2.1.2.1]	COG0112	Glycine/serine hydroxymethyltransferase	FALSE
+292	PC_00000854	genome_2	NA	NA	COG0472	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase	FALSE
+293	PC_00000796	genome_2	K03742	pncC; nicotinamide-nucleotide amidase [EC:3.5.1.42]	COG1058!!!COG1546	Predicted nucleotide-utilizing enzyme related to molybdopterin-biosynthesis enzyme MoeA!!!Nicotinamide mononucleotide (NMN) deamidase PncC	FALSE
+294	PC_00000984	genome_2	K01703	leuC; 3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit [EC:4.2.1.33 4.2.1.35]	COG0065	Homoaconitase/3-isopropylmalate dehydratase large subunit	FALSE
+295	PC_00000545	genome_2	K01704	leuD; 3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35]	COG0066	3-isopropylmalate dehydratase small subunit	FALSE
+296	PC_00001478	genome_2	NA	NA	COG1357	Uncharacterized protein YjbI, contains pentapeptide repeats	FALSE
+297	PC_00001373	genome_2	NA	NA	COG1452	LPS assembly outer membrane protein LptD (organic solvent tolerance protein OstA)	FALSE
+298	PC_00001588	genome_2	K02710	psbI; photosystem II PsbI protein	NA	NA	FALSE
+299	PC_00001327	genome_2	K01191	E3.2.1.24; alpha-mannosidase [EC:3.2.1.24]	COG0383	Alpha-mannosidase	FALSE
+300	PC_00001479	genome_2	K02715	psbN; PsbN protein	NA	NA	FALSE
+301	PC_00000148	genome_2	K02709	psbH; photosystem II PsbH protein	NA	NA	FALSE
+302	PC_00000544	genome_2	K03116	tatA; sec-independent protein translocase protein TatA	COG1826	Sec-independent protein translocase protein TatA	FALSE
+303	PC_00000414	genome_2	K01056	PTH1; peptidyl-tRNA hydrolase, PTH1 family [EC:3.1.1.29]	COG0193	Peptidyl-tRNA hydrolase	FALSE
+304	PC_00000191	genome_2	NA	NA	NA	NA	FALSE
+305	PC_00002465	genome_2	NA	NA	COG0816	RNase H-fold protein, predicted Holliday junction resolvase in Firmicutes and mycoplasms, involved in anti-termination at Rho-dependent terminators	FALSE
+306	PC_00001402	genome_2	NA	NA	COG4372	Uncharacterized conserved protein, contains DUF3084 domain	FALSE
+307	PC_00000587	genome_2	K21561	ntcA; CRP/FNR family transcriptional regulator, global nitrogen regulator	COG0664	cAMP-binding domain of CRP or a regulatory subunit of cAMP-dependent protein kinases	FALSE
+308	PC_00001263	genome_2	K00989	rph; ribonuclease PH [EC:2.7.7.56]	COG0689	Ribonuclease PH	FALSE
+309	PC_00000585	genome_2	K00798	MMAB; cob(I)alamin adenosyltransferase [EC:2.5.1.17]	COG2109	ATP:corrinoid adenosyltransferase	FALSE
+310	PC_00000196	genome_2	K01494	dcd; dCTP deaminase [EC:3.5.4.13]	COG0717	Deoxycytidine triphosphate deaminase	FALSE
+311	PC_00000516	genome_2	K03465	thyX; thymidylate synthase (FAD) [EC:2.1.1.148]	COG1351	Thymidylate synthase ThyX	FALSE
+312	PC_00001238	genome_2	NA	NA	COG0526	Thiol-disulfide isomerase or thioredoxin	FALSE
+313	PC_00002141	genome_2	NA	NA	NA	NA	FALSE
+314	PC_00002456	genome_2	K08309	slt; soluble lytic murein transglycosylase [EC:4.2.2.-]	COG0741!!!COG3071	Soluble lytic murein transglycosylase and related regulatory proteins (some contain LysM/invasin domains)!!!Uncharacterized conserved protein HemY, contains two TPR repeats	FALSE
+315	PC_00003011	genome_2	NA	NA	NA	NA	FALSE
+316	PC_00000927	genome_2	K03431	glmM; phosphoglucosamine mutase [EC:5.4.2.10]	COG1109	Phosphomannomutase	FALSE
+317	PC_00002372	genome_2	NA	NA	COG2971	BadF-type ATPase, related to human N-acetylglucosamine kinase	FALSE
+318	PC_00000855	genome_2	K18814	ictB; putative inorganic carbon (hco3(-)) transporter	COG3307	O-antigen ligase	FALSE
+319	PC_00001321	genome_2	K03439	trmB; tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	COG0220	tRNA G46 methylase TrmB	FALSE
+320	PC_00001025	genome_2	NA	NA	COG4398	Small ligand-binding sensory domain FIST	FALSE
+321	PC_00000610	genome_2	NA	NA	NA	NA	FALSE
+322	PC_00002651	genome_2	NA	NA	NA	NA	FALSE
+323	PC_00010420	genome_2	NA	NA	NA	NA	FALSE
+324	PC_00012265	genome_2	NA	NA	NA	NA	FALSE
+325	PC_00012467	genome_2	NA	NA	NA	NA	FALSE
+326	PC_00000997	genome_2	K01870	IARS; isoleucyl-tRNA synthetase [EC:6.1.1.5]	COG0060!!!COG3064	Isoleucyl-tRNA synthetase!!!Membrane protein involved in colicin uptake	FALSE
+327	PC_00003858	genome_2	NA	NA	COG0060!!!COG3064	Isoleucyl-tRNA synthetase!!!Membrane protein involved in colicin uptake	FALSE
+328	PC_00000824	genome_2	K02294	crtR; beta-carotene hydroxylase [EC:1.14.13.-]	COG3239	Fatty acid desaturase	FALSE
+329	PC_00000617	genome_2	K02435	gatC; aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C [EC:6.3.5.6 6.3.5.7]	COG0721	Asp-tRNAAsn/Glu-tRNAGln amidotransferase C subunit	FALSE
+330	PC_00000487	genome_2	K01470	E3.5.2.10; creatinine amidohydrolase [EC:3.5.2.10]	COG1402	 Creatinine amidohydrolase/Fe(II)-dependent formamide hydrolase involved in riboflavin and F420 biosynthesis	FALSE
+331	PC_00000051	genome_2	NA	NA	NA	NA	FALSE
+332	PC_00000914	genome_2	K09125	uncharacterized protein	COG1738	Uncharacterized PurR-regulated membrane protein YhhQ, DUF165 family	FALSE
+333	PC_00000037	genome_2	K03652	MPG; DNA-3-methyladenine glycosylase [EC:3.2.2.21]	COG2094	3-methyladenine DNA glycosylase Mpg	FALSE
+334	PC_00000525	genome_2	K00609	pyrB; aspartate carbamoyltransferase catalytic subunit [EC:2.1.3.2]	COG0540	Aspartate carbamoyltransferase, catalytic chain	FALSE
+335	PC_00001462	genome_2	K03885	ndh; NADH dehydrogenase [EC:1.6.99.3]	COG1252	NADH dehydrogenase, FAD-containing subunit	FALSE
+336	PC_00002050	genome_2	NA	NA	NA	NA	FALSE
+337	PC_00000200	genome_2	NA	NA	NA	NA	FALSE
+338	PC_00001428	genome_2	NA	NA	NA	NA	FALSE
+339	PC_00004810	genome_2	NA	NA	COG1680	CubicO group peptidase, beta-lactamase class C family	FALSE
+340	PC_00001161	genome_2	NA	NA	COG3536	Uncharacterized conserved protein, DUF971 family	FALSE
+341	PC_00001361	genome_2	K13038	coaBC; phosphopantothenoylcysteine decarboxylase / phosphopantothenate--cysteine ligase [EC:4.1.1.36 6.3.2.5]	COG0452	Phosphopantothenoylcysteine synthetase/decarboxylase	FALSE
+342	PC_00000596	genome_2	K02716	psbO; photosystem II oxygen-evolving enhancer protein 1	NA	NA	FALSE
+343	PC_00000584	genome_2	K00958	sat; sulfate adenylyltransferase [EC:2.7.7.4]	COG2046	ATP sulfurylase (sulfate adenylyltransferase)	FALSE
+344	PC_00000011	genome_2	K03798	ftsH; cell division protease FtsH [EC:3.4.24.-]	COG0465	ATP-dependent Zn proteases	FALSE
+345	PC_00002376	genome_2	K01625	eda; 2-dehydro-3-deoxyphosphogluconate aldolase / (4S)-4-hydroxy-2-oxoglutarate aldolase [EC:4.1.2.14 4.1.3.42]	COG0800	2-keto-3-deoxy-6-phosphogluconate aldolase	FALSE
+346	PC_00003286	genome_2	NA	NA	NA	NA	FALSE
+347	PC_00003529	genome_2	NA	NA	NA	NA	FALSE
+348	PC_00000603	genome_2	K01736	aroC; chorismate synthase [EC:4.2.3.5]	COG0082	Chorismate synthase	FALSE
+349	PC_00001475	genome_2	K09705	uncharacterized protein	COG3542	Predicted sugar epimerase, cupin superfamily	FALSE
+350	PC_00000948	genome_2	K13693	gpgS; glucosyl-3-phosphoglycerate synthase [EC:2.4.1.266]	COG1215	Glycosyltransferase, catalytic subunit of cellulose synthase and poly-beta-1,6-N-acetylglucosamine synthase	FALSE
+351	PC_00000913	genome_2	K00690	E2.4.1.7; sucrose phosphorylase [EC:2.4.1.7]	COG0366	Glycosidase	FALSE
+352	PC_00001509	genome_2	K07026	E3.1.3.70; mannosyl-3-phosphoglycerate phosphatase [EC:3.1.3.70]	COG3769	Predicted mannosyl-3-phosphoglycerate phosphatase, HAD superfamily	FALSE
+353	PC_00001659	genome_2	NA	NA	COG1765	Uncharacterized OsmC-related protein	FALSE
+354	PC_00002717	genome_2	K13421	UMPS; uridine monophosphate synthetase [EC:2.4.2.10 4.1.1.23]	COG0284!!!COG0461	Orotidine-5_-phosphate decarboxylase!!!Orotate phosphoribosyltransferase	FALSE
+355	PC_00009164	genome_2	NA	NA	NA	NA	FALSE
+356	PC_00002948	genome_2	K02030	ABC.PA.S; polar amino acid transport system substrate-binding protein	COG2860	Uncharacterized membrane protein YeiH	FALSE
+357	PC_00000007	genome_2	K02703	psbA; photosystem II P680 reaction center D1 protein [EC:1.10.3.9]	NA	NA	FALSE
+358	PC_00001474	genome_2	NA	NA	COG1032	Radical SAM superfamily enzyme YgiQ, UPF0313 family	FALSE
+359	PC_00002815	genome_2	K07052	uncharacterized protein	COG1266	Membrane protease YdiL, CAAX protease family	FALSE
+360	PC_00000783	genome_2	K06891	clpS; ATP-dependent Clp protease adaptor protein ClpS	COG2127	ATP-dependent Clp protease adapter protein ClpS	FALSE
+361	PC_00000875	genome_2	K10206	E2.6.1.83; LL-diaminopimelate aminotransferase [EC:2.6.1.83]	COG0436	Aspartate/methionine/tyrosine aminotransferase	FALSE
+362	PC_00001079	genome_2	NA	NA	COG1032!!!COG5011	Radical SAM superfamily enzyme YgiQ, UPF0313 family!!!Uncharacterized conserved protein, DUF2344 family	FALSE
+363	PC_00001032	genome_2	K08300	rne; ribonuclease E [EC:3.1.26.12]	COG1530	Ribonuclease G or E	FALSE
+364	PC_00000860	genome_2	K03470	rnhB; ribonuclease HII [EC:3.1.26.4]	COG0164	Ribonuclease HII	FALSE
+365	PC_00000615	genome_2	NA	NA	NA	NA	FALSE
+366	PC_00001069	genome_2	K04518	pheA2; prephenate dehydratase [EC:4.2.1.51]	COG0077	Prephenate dehydratase	FALSE
+367	PC_00000868	genome_2	K18534	MPBQ/MSBQ methyltransferase [EC:2.1.1.295]	COG2226	Ubiquinone/menaquinone biosynthesis C-methylase UbiE	FALSE
+368	PC_00000577	genome_2	K01338	lon; ATP-dependent Lon protease [EC:3.4.21.53]	COG2802	Uncharacterized protein, similar to the N-terminal domain of Lon protease	FALSE
+369	PC_00000147	genome_2	K02946	RP-S10; small subunit ribosomal protein S10	COG0051	Ribosomal protein S10	FALSE
+370	PC_00000098	genome_2	K02358	tuf; elongation factor Tu	COG0050	Translation elongation factor EF-Tu, a GTPase	FALSE
+371	PC_00000323	genome_2	K02355	fusA; elongation factor G	COG0480	Translation elongation factor EF-G, a GTPase	FALSE
+372	PC_00000167	genome_2	K02992	RP-S7; small subunit ribosomal protein S7	COG0049	Ribosomal protein S7	FALSE
+373	PC_00000157	genome_2	K02950	RP-S12; small subunit ribosomal protein S12	COG0048	Ribosomal protein S12	FALSE
+374	PC_00000583	genome_2	NA	NA	COG0316	Fe-S cluster assembly iron-binding protein IscA	FALSE
+375	PC_00001248	genome_2	NA	NA	COG4632	Exopolysaccharide biosynthesis protein related to N-acetylglucosamine-1-phosphodiester alpha-N-acety...	FALSE
+376	PC_00000935	genome_2	K00284	E1.4.7.1; glutamate synthase (ferredoxin) [EC:1.4.7.1]	COG0067!!!COG0069!!!COG0070	Glutamate synthase domain 1!!!Glutamate synthase domain 2!!!Glutamate synthase domain 3	FALSE
+377	PC_00001435	genome_2	NA	NA	COG2350	Uncharacterized conserved protein YciI, contains a putative active-site phosphohistidine	FALSE
+378	PC_00000101	genome_2	K03644	lipA; lipoyl synthase [EC:2.8.1.8]	COG0320	Lipoate synthase	FALSE
+379	PC_00001139	genome_2	K13541	cbiGH-cobJ; cobalt-precorrin 5A hydrolase / precorrin-3B C17-methyltransferase [EC:3.7.1.12 2.1.1.131]	COG1010!!!COG2073	Precorrin-3B methylase!!!Cobalamin biosynthesis protein CbiG	FALSE
+380	PC_00003745	genome_2	NA	NA	COG3468	Type V secretory pathway, adhesin AidA	FALSE
+381	PC_00000281	genome_2	K02689	psaA; photosystem I P700 chlorophyll a apoprotein A1	COG2885	Outer membrane protein OmpA and related peptidoglycan-associated (lipo)proteins	FALSE
+382	PC_00000253	genome_2	K02690	psaB; photosystem I P700 chlorophyll a apoprotein A2	COG2885	Outer membrane protein OmpA and related peptidoglycan-associated (lipo)proteins	FALSE
+383	PC_00001686	genome_2	NA	NA	COG3435!!!COG3435	Gentisate 1,2-dioxygenase!!!Gentisate 1,2-dioxygenase	FALSE
+384	PC_00001958	genome_2	K10255	FAD6; acyl-lipid omega-6 desaturase (Delta-12 desaturase) [EC:1.14.19.23 1.14.19.45]	COG3239	Fatty acid desaturase	FALSE
+385	PC_00000663	genome_2	NA	NA	COG0841	Multidrug efflux pump subunit AcrB	FALSE
+386	PC_00000050	genome_2	K02699	psaL; photosystem I subunit XI	NA	NA	FALSE
+387	PC_00002297	genome_2	NA	NA	NA	NA	FALSE
+388	PC_00000433	genome_2	NA	NA	COG0463	Glycosyltransferase involved in cell wall bisynthesis	FALSE
+389	PC_00000922	genome_2	NA	NA	COG0791	Cell wall-associated hydrolase, NlpC family	FALSE
+390	PC_00001084	genome_2	NA	NA	COG2367	Beta-lactamase class A	FALSE
+391	PC_00001050	genome_2	K01775	alr; alanine racemase [EC:5.1.1.1]	COG0787	Alanine racemase	FALSE
+392	PC_00000256	genome_2	NA	NA	COG1403	5-methylcytosine-specific restriction endonuclease McrA	FALSE
+393	PC_00000380	genome_2	K02835	prfA; peptide chain release factor 1	COG0216	Protein chain release factor A	FALSE
+394	PC_00000199	genome_2	K02909	RP-L31; large subunit ribosomal protein L31	COG0254	Ribosomal protein L31	FALSE
+395	PC_00000206	genome_2	K02996	RP-S9; small subunit ribosomal protein S9	COG0103	Ribosomal protein S9	FALSE
+396	PC_00000251	genome_2	K02871	RP-L13; large subunit ribosomal protein L13	COG0102	Ribosomal protein L13	FALSE
+397	PC_00001033	genome_2	K06173	truA; tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	COG0101	tRNA U38,U39,U40 pseudouridine synthase TruA	FALSE
+398	PC_00000180	genome_2	K02879	RP-L17; large subunit ribosomal protein L17	COG0203	Ribosomal protein L17	FALSE
+399	PC_00000294	genome_2	K03040	rpoA; DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]	COG0202	DNA-directed RNA polymerase, alpha subunit/40 kD subunit	FALSE
+400	PC_00000175	genome_2	K02948	RP-S11; small subunit ribosomal protein S11	COG0100	Ribosomal protein S11	FALSE
+401	PC_00000190	genome_2	K02952	RP-S13; small subunit ribosomal protein S13	COG0099	Ribosomal protein S13	FALSE
+402	PC_00000734	genome_2	K00939	adk; adenylate kinase [EC:2.7.4.3]	COG0563	Adenylate kinase or related kinase	FALSE
+403	PC_00000267	genome_2	K03076	secY; preprotein translocase subunit SecY	COG0201	Preprotein translocase subunit SecY	FALSE
+404	PC_00000301	genome_2	K02876	RP-L15; large subunit ribosomal protein L15	COG0200	Ribosomal protein L15	FALSE
+405	PC_00000172	genome_2	K02988	RP-S5; small subunit ribosomal protein S5	COG0098	Ribosomal protein S5	FALSE
+406	PC_00000212	genome_2	K02881	RP-L18; large subunit ribosomal protein L18	COG0256	Ribosomal protein L18	FALSE
+407	PC_00000207	genome_2	K02933	RP-L6; large subunit ribosomal protein L6	COG0097	Ribosomal protein L6P/L9E	FALSE
+408	PC_00000174	genome_2	K02994	RP-S8; small subunit ribosomal protein S8	COG0096	Ribosomal protein S8	FALSE
+409	PC_00000176	genome_2	K02931	RP-L5; large subunit ribosomal protein L5	COG0094	Ribosomal protein L5	FALSE
+410	PC_00000178	genome_2	K02895	RP-L24; large subunit ribosomal protein L24	COG0198	Ribosomal protein L24	FALSE
+411	PC_00000242	genome_2	K02874	RP-L14; large subunit ribosomal protein L14	COG0093	Ribosomal protein L14	FALSE
+412	PC_00000195	genome_2	K02961	RP-S17; small subunit ribosomal protein S17	COG0186	Ribosomal protein S17	FALSE
+413	PC_00000298	genome_2	K02904	RP-L29; large subunit ribosomal protein L29	COG0255	Ribosomal protein L29	FALSE
+414	PC_00000188	genome_2	K02878	RP-L16; large subunit ribosomal protein L16	COG0197	Ribosomal protein L16/L10AE	FALSE
+415	PC_00000203	genome_2	K02982	RP-S3; small subunit ribosomal protein S3	COG0092	Ribosomal protein S3	FALSE
+416	PC_00000280	genome_2	K02890	RP-L22; large subunit ribosomal protein L22	COG0091	Ribosomal protein L22	FALSE
+417	PC_00000159	genome_2	K02965	RP-S19; small subunit ribosomal protein S19	COG0185	Ribosomal protein S19	FALSE
+418	PC_00000177	genome_2	K02886	RP-L2; large subunit ribosomal protein L2	COG0090	Ribosomal protein L2	FALSE
+419	PC_00000161	genome_2	K02892	RP-L23; large subunit ribosomal protein L23	COG0089	Ribosomal protein L23	FALSE
+420	PC_00000342	genome_2	K02926	RP-L4; large subunit ribosomal protein L4	COG0088	Ribosomal protein L4	FALSE
+421	PC_00000349	genome_2	K02906	RP-L3; large subunit ribosomal protein L3	COG0087	Ribosomal protein L3	FALSE
+422	PC_00000292	genome_2	K05585	ndhN; NAD(P)H-quinone oxidoreductase subunit N [EC:1.6.5.3]	NA	NA	FALSE
+423	PC_00001368	genome_2	NA	NA	COG1149	MinD superfamily P-loop ATPase, contains an inserted ferredoxin domain	FALSE
+424	PC_00000884	genome_2	NA	NA	COG3854	Stage III sporulation protein SpoIIIAA	FALSE
+425	PC_00001259	genome_2	NA	NA	COG0546	Phosphoglycolate phosphatase, HAD superfamily	FALSE
+426	PC_00000402	genome_2	K03553	recA; recombination protein RecA	COG0468	RecA/RadA recombinase	FALSE
+427	PC_00000319	genome_2	NA	NA	NA	NA	FALSE
+428	PC_00000459	genome_2	NA	NA	NA	NA	FALSE
+429	PC_00001350	genome_2	K03722	dinG; ATP-dependent DNA helicase DinG [EC:3.6.4.12]	COG1199	Rad3-related DNA helicase	FALSE
+430	PC_00001372	genome_2	K15226	tyrAa; arogenate dehydrogenase (NADP+) [EC:1.3.1.78]	COG0287	Prephenate dehydrogenase	FALSE
+431	PC_00001137	genome_2	NA	NA	COG1233	Phytoene dehydrogenase-related protein	FALSE
+432	PC_00002090	genome_2	NA	NA	COG3001	Fructosamine-3-kinase	FALSE
+433	PC_00000084	genome_2	NA	NA	NA	NA	FALSE
+434	PC_00000990	genome_2	K21147	moeZR; sulfur-carrier protein adenylyltransferase/sulfurtransferase [EC:2.7.7.80 2.7.7.- 2.8.1.11 2.8.1.-]	COG0476!!!COG0607	Molybdopterin or thiamine biosynthesis adenylyltransferase!!!Rhodanese-related sulfurtransferase	FALSE
+435	PC_00000548	genome_2	K19221	cobA; cob(I)alamin adenosyltransferase [EC:2.5.1.17]	COG2109!!!COG2109	ATP:corrinoid adenosyltransferase!!!ATP:corrinoid adenosyltransferase	FALSE
+436	PC_00001093	genome_2	K06864	uncharacterized protein	COG1606	ATP-utilizing enzyme, PP-loop superfamily	FALSE
+437	PC_00002786	genome_2	K01580	E4.1.1.15; glutamate decarboxylase [EC:4.1.1.15]	COG0076	Glutamate or tyrosine decarboxylase or a related PLP-dependent protein	FALSE
+438	PC_00000293	genome_2	K01611	speD; S-adenosylmethionine decarboxylase [EC:4.1.1.50]	COG1586	S-adenosylmethionine decarboxylase or arginine decarboxylase	FALSE
+439	PC_00000316	genome_2	K03629	recF; DNA replication and repair protein RecF	COG1195	Recombinational DNA repair ATPase RecF	FALSE
+440	PC_00001239	genome_2	NA	NA	COG0454	N-acetyltransferase, GNAT superfamily (includes histone acetyltransferase HPA2)	FALSE
+441	PC_00001083	genome_2	K01595	ppc; phosphoenolpyruvate carboxylase [EC:4.1.1.31]	COG2352	Phosphoenolpyruvate carboxylase	FALSE
+442	PC_00001059	genome_2	NA	NA	COG2170	Gamma-glutamyl:cysteine ligase YbdK, ATP-grasp superfamily	FALSE
+443	PC_00000885	genome_2	K01657	trpE; anthranilate synthase component I [EC:4.1.3.27]	COG0147	Anthranilate/para-aminobenzoate synthases component I	FALSE
+444	PC_00001483	genome_2	K02692	psaD; photosystem I subunit II	NA	NA	FALSE
+445	PC_00002186	genome_2	NA	NA	COG2205	K+-sensing histidine kinase KdpD	FALSE
+446	PC_00000678	genome_2	K05837	rodA; rod shape determining protein RodA	COG0772	Bacterial cell division protein FtsW, lipid II flippase	FALSE
+447	PC_00000925	genome_2	K03593	mrp; ATP-binding protein involved in chromosome partitioning	COG0489!!!COG2151	Chromosome partitioning ATPase, Mrp family, contains Fe-S cluster!!!Metal-sulfur cluster biosynthetic enzyme	FALSE
+448	PC_00001132	genome_2	K00228	CPOX; coproporphyrinogen III oxidase [EC:1.3.3.3]	COG0408	Coproporphyrinogen III oxidase	FALSE
+449	PC_00001735	genome_2	NA	NA	NA	NA	FALSE
+450	PC_00001094	genome_2	NA	NA	NA	NA	FALSE
+451	PC_00013849	genome_2	NA	NA	NA	NA	FALSE
+452	PC_00010671	genome_2	NA	NA	NA	NA	FALSE
+453	PC_00000601	genome_2	K03684	rnd; ribonuclease D [EC:3.1.13.5]	COG0349	Ribonuclease D	FALSE
+454	PC_00002098	genome_2	NA	NA	NA	NA	FALSE
+455	PC_00000864	genome_2	NA	NA	COG4370	Uncharacterized protein	FALSE
+456	PC_00002725	genome_2	K10716	kch; voltage-gated potassium channel	COG0664	cAMP-binding domain of CRP or a regulatory subunit of cAMP-dependent protein kinases	FALSE
+457	PC_00003406	genome_2	NA	NA	NA	NA	FALSE
+458	PC_00001125	genome_2	K05275	E1.1.1.65; pyridoxine 4-dehydrogenase [EC:1.1.1.65]	COG0667	Predicted oxidoreductase (related to aryl-alcohol dehydrogenase)	FALSE
+459	PC_00000470	genome_2	NA	NA	NA	NA	FALSE
+460	PC_00001068	genome_2	K01933	purM; phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]	COG0150	Phosphoribosylaminoimidazole (AIR) synthetase	FALSE
+461	PC_00000022	genome_2	K03642	rlpA; rare lipoprotein A	COG0797	Rare lipoprotein A, peptidoglycan hydrolase digesting naked glycans, contains C-terminal SPOR domain	FALSE
+462	PC_00000780	genome_2	K13799	panC-cmk; pantoate ligase / CMP/dCMP kinase [EC:6.3.2.1 2.7.4.25]	COG0283!!!COG0414	Cytidylate kinase!!!Panthothenate synthetase	FALSE
+463	PC_00000849	genome_2	K01104	E3.1.3.48; protein-tyrosine phosphatase [EC:3.1.3.48]	COG0394	Protein-tyrosine-phosphatase	FALSE
+464	PC_00002026	genome_2	K02289	cpcF; phycocyanobilin lyase subunit beta [EC:4.4.1.32]	COG1413	HEAT repeat	FALSE
+465	PC_00001917	genome_2	K02288	cpcE; phycocyanobilin lyase subunit alpha [EC:4.4.1.32]	COG1413	HEAT repeat	FALSE
+466	PC_00001564	genome_2	NA	NA	NA	NA	FALSE
+467	PC_00000089	genome_2	K02284	cpcA; phycocyanin alpha chain	NA	NA	FALSE
+468	PC_00000059	genome_2	K02285	cpcB; phycocyanin beta chain	NA	NA	FALSE
+469	PC_00001391	genome_2	K05370	pebB; phycoerythrobilin:ferredoxin oxidoreductase [EC:1.3.7.3]	NA	NA	FALSE
+470	PC_00001319	genome_2	K05369	pebA; 15,16-dihydrobiliverdin:ferredoxin oxidoreductase [EC:1.3.7.2]	NA	NA	FALSE
+471	PC_00001315	genome_2	NA	NA	NA	NA	FALSE
+472	PC_00001177	genome_2	NA	NA	NA	NA	FALSE
+473	PC_00000018	genome_2	K05377	cpeB; phycoerythrin beta chain	NA	NA	FALSE
+474	PC_00001170	genome_2	K05376	cpeA; phycoerythrin alpha chain	NA	NA	FALSE
+475	PC_00002246	genome_2	K05384	cpeU; bilin biosynthesis protein	COG1413	HEAT repeat	FALSE
+476	PC_00001792	genome_2	NA	NA	NA	NA	FALSE
+477	PC_00009453	genome_2	NA	NA	NA	NA	FALSE
+478	PC_00005513	genome_2	K05385	cpeY; bilin biosynthesis protein	COG1413	HEAT repeat	FALSE
+479	PC_00002241	genome_2	K05386	cpeZ; bilin biosynthesis protein	COG1413	HEAT repeat	FALSE
+480	PC_00001697	genome_2	K05384	cpeU; bilin biosynthesis protein	COG1413	HEAT repeat	FALSE
+481	PC_00001695	genome_2	K05378	cpeC; phycoerythrin-associated linker protein	COG0237	Dephospho-CoA kinase	FALSE
+482	PC_00001410	genome_2	K05376	cpeA; phycoerythrin alpha chain	NA	NA	FALSE
+483	PC_00000018	genome_2	K05377	cpeB; phycoerythrin beta chain	NA	NA	FALSE
+484	PC_00001797	genome_2	NA	NA	COG1413!!!COG1413	HEAT repeat!!!HEAT repeat	FALSE
+485	PC_00002081	genome_2	NA	NA	NA	NA	FALSE
+486	PC_00001661	genome_2	NA	NA	NA	NA	FALSE
+487	PC_00001815	genome_2	K05381	cpeR; phycoerythrin-associated linker protein	NA	NA	FALSE
+488	PC_00001322	genome_2	K05383	cpeT; CpeT protein	NA	NA	FALSE
+489	PC_00001231	genome_2	K05382	cpeS; phycoerythrin-associated linker protein	NA	NA	FALSE
+490	PC_00001375	genome_2	K05380	cpeE; phycoerythrin-associated linker protein	COG0448	ADP-glucose pyrophosphorylase	FALSE
+491	PC_00001304	genome_2	K05379	cpeD; phycoerythrin-associated linker protein	COG0237	Dephospho-CoA kinase	FALSE
+492	PC_00001221	genome_2	K05378	cpeC; phycoerythrin-associated linker protein	NA	NA	FALSE
+493	PC_00001205	genome_2	NA	NA	COG1357	Uncharacterized protein YjbI, contains pentapeptide repeats	FALSE
+494	PC_00000552	genome_2	K02290	cpcG; phycobilisome rod-core linker protein	COG0448	ADP-glucose pyrophosphorylase	FALSE
+495	PC_00002202	genome_2	K02286	cpcC; phycocyanin-associated rod linker protein	NA	NA	FALSE
+496	PC_00005489	genome_2	NA	NA	NA	NA	FALSE
+497	PC_00002494	genome_2	NA	NA	NA	NA	FALSE
+498	PC_00003360	genome_2	NA	NA	NA	NA	FALSE
