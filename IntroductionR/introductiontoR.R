@@ -1,7 +1,7 @@
 # "#" is used to create comments in your code and 
 # are not executed by the R interpreter
 
-## where are we?
+## in which are we?
 getwd()
 
 ## the helpful help
