@@ -1,14 +1,6 @@
 #Introduction to R
----
-layout: main
-title: Introduction to R
-categories: [R, tutorial]
-permalink: /R/basics
----
 
-{% include _R_basics_toc.html %}
 
-{% include _side_tab_R.html %}
 
 > **Things covered here:**  
 *  RStudio value and layout
