@@ -46,13 +46,16 @@ ASVs table + Rapresentative Sequences + taxonomy table + metadata
 
 
 
+---
+---
+---
 
 
+## now open **analysis_sea4blue.R** in your R cloud
 
 
-
-```r
 #load packages
+```r
 library(MiscMetabar)
 library(formattable)
 library(phyloseq)
@@ -64,8 +67,9 @@ library(ranacapa)
 library(ggside)
 library(ggpubr)
 library(grid)
-
+```
 #import data for the phyloseq object ( ASVs table, Tax table, metadata table)
+```r
 ps <- read_pq(path = "sea4blue_phyloseq") #this function import all the files from a specified folder 
 
 ps
@@ -77,9 +81,8 @@ ps
 ## sample_data() Sample Data:       [ 17 samples by 9 sample variables ]
 ## tax_table()   Taxonomy Table:    [ 1312 taxa by 6 taxonomic ranks ]
 ```
-
-```r
-# the metadata 
+# the metadata
+```r 
 sample_data(ps)
 ```
 
@@ -104,14 +107,18 @@ sample_data(ps)
 ## sa17 Positive GTTACAGCGTCTAGTG   Positive            NA       <NA> Superficiale <NA>       NA         NA
 ```
 
+
+# LET'S VISUALIZE RAREFACTION CURVES 
+
+# do you remember?
+
+<p align="center">
+  <img width=50% height=50% src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/rarefct_curve_fake.png">
+</p>
+
+
+
 ```r
-##################################################
-####### LET'S VISUAALIZE RAREFACTION CURVES ###### 
-##################################################
-
-set.seed(42)
-
-
 # define a new ps object called psdata that will be used in the following function
 ps
 ```
@@ -152,11 +159,13 @@ calculate_rarefaction_curves <- function(psdata, measures, depths) {
   
   rarefaction_curve_data
 }
-
-
+```
 #### use the function calculate_rarefaction_curves on ps
+```r
 rarefaction_curve_data <- calculate_rarefaction_curves(ps, c('Observed'), rep(c(1, 10, 100, 1000, 1:100 * 10000), each = 10))
+```
 #print the summary
+```
 summary(rarefaction_curve_data)
 ```
 
@@ -170,9 +179,8 @@ summary(rarefaction_curve_data)
 ##  Max.   :60000   sa1    : 80                   Max.   :416.0  
 ##                  (Other):770
 ```
-
-```r
-# do some calculations  and merge the data for plotting 
+# do some calculations  and merge the data for plotting
+```r 
 rarefaction_curve_data_summary <- ddply(rarefaction_curve_data, c('Depth', 'Sample', 'Measure'), summarise, Alpha_diversity_mean = mean(Alpha_diversity), Alpha_diversity_sd = sd(Alpha_diversity))
 
 rarefaction_curve_data_summary_verbose <- merge(rarefaction_curve_data_summary, 
@@ -180,9 +188,9 @@ rarefaction_curve_data_summary_verbose <- merge(rarefaction_curve_data_summary,
                                                 by.x = 'Sample', by.y = 'row.names')
 
 
-
+```
 ### plot with ggplot
-
+```
 ggplot(data=rarefaction_curve_data_summary_verbose, aes(x = Depth, 
                                                         y = Alpha_diversity_mean, 
                                                         group = Sample, color = Zone)) +
@@ -197,9 +205,9 @@ ggplot(data=rarefaction_curve_data_summary_verbose, aes(x = Depth,
 
 <img src="script_lezione_files/figure-html/unnamed-chunk-1-1.png" width="672" />
 
-```r
-## there is something strange with sample 16 and 17 could you guess why
 
+## there is something strange with sample 16 and 17 could you guess why
+```
 
 ggplot(data=rarefaction_curve_data_summary_verbose, aes(x = Depth, 
                                                         y = Alpha_diversity_mean, 
@@ -215,26 +223,28 @@ ggplot(data=rarefaction_curve_data_summary_verbose, aes(x = Depth,
 
 <img src="script_lezione_files/figure-html/unnamed-chunk-1-2.png" width="672" />
 
-```r
-#### do you see some patterns???????
+
+# *do you see some patterns???????*
 
 
-#######################################
-#######       NORMALIZATION     ###### 
-######################################
+
+# NORMALIZATION     
 
 
+```
 phyloseq_obj<-ps
-#search for Mitochondria
+```
+# search for Mitochondria
+```
 grep(pattern = "Mitochondria", tax_table(phyloseq_obj)) 
 ```
 
 ```
 ##  [1] 5985 6020 6044 6099 6101 6121 6185 6257 6296 6334 6381 6415 6422 6431 6454 6460 6461 6493 6504 6509 6513 6526 6529
 ```
-
-```r
 #search for Chloroplast
+```r
+
 grep(pattern = "Chloroplast", tax_table(phyloseq_obj)) 
 ```
 
@@ -243,9 +253,9 @@ grep(pattern = "Chloroplast", tax_table(phyloseq_obj))
 ## [30] 4655 4668 4696 4747 4751 4763 4764 4772 4777 4813 4815 4822 4825 4891 4936 4951 4964 4994 4999 5017 5025 5029 5053 5083 5095 5125 5127 5143 5168
 ## [59] 5247 5248
 ```
-
-```r
 #remove Chloroplast and Mitochondria from phyloseq_obj
+```r
+
 phyloseq_obj <- phyloseq_obj %>% subset_taxa( Family!= "Mitochondria" | is.na(Family) & Order!="Chloroplast" | is.na(Order) ) 
 
 phyloseq_obj
@@ -271,10 +281,8 @@ doubleton
 ## sample_data() Sample Data:       [ 17 samples by 9 sample variables ]
 ## tax_table()   Taxonomy Table:    [ 1226 taxa by 6 taxonomic ranks ]
 ```
-
-```r
 ## rimuovo i pos e neg
-
+```r
 sample_variables(doubleton)
 ```
 
@@ -282,19 +290,20 @@ sample_variables(doubleton)
 ## [1] "X"             "IndexSequence" "SampleName"    "NavigationDay" "Date"          "Water"         "Zone"          "Latitude"      "Longitude"
 ```
 
-```r
 #rimuovo i positivi e negativi
+```r
 doubleton = subset_samples(doubleton,!( SampleName=="Positive" | SampleName=="Negative"))
+```
 #check it
+```
 sample_data(doubleton)$SampleName
 ```
 
 ```
 ##  [1] "eDNA1"  "eDNA18" "eDNA19" "eDNA25" "eDNA26" "eDNA27" "eDNA28" "eDNA3"  "eDNA4"  "eDNA6"  "eDNA7"  "eDNA9"  "eDNA15" "eDNA16" "eDNA17"
 ```
-
-```r
 # transforming 
+```r
 data.metagenomeSeq = phyloseq_to_metagenomeSeq(doubleton)
 
 p = cumNormStat(data.metagenomeSeq) #default is 0.5
@@ -342,9 +351,8 @@ phyloseq_obj_css
 ## sample_data() Sample Data:       [ 15 samples by 9 sample variables ]
 ## tax_table()   Taxonomy Table:    [ 1226 taxa by 6 taxonomic ranks ]
 ```
-
+# change sample names to the correct ones
 ```r
-#change sample names to the correct ones
 sample_names(phyloseq_obj_css)<-sample_data(phyloseq_obj_css)$SampleName 
 
 sample_names(phyloseq_obj_css)
@@ -354,8 +362,8 @@ sample_names(phyloseq_obj_css)
 ##  [1] "eDNA1"  "eDNA18" "eDNA19" "eDNA25" "eDNA26" "eDNA27" "eDNA28" "eDNA3"  "eDNA4"  "eDNA6"  "eDNA7"  "eDNA9"  "eDNA15" "eDNA16" "eDNA17"
 ```
 
+# this is the phyloseq object normalized
 ```r
-############ this is the phyloseq object normalized
 phyloseq_obj_css
 ```
 
@@ -366,17 +374,17 @@ phyloseq_obj_css
 ## tax_table()   Taxonomy Table:    [ 1226 taxa by 6 taxonomic ranks ]
 ```
 
-```r
-#######################################
-#######     ALPHA DIVERSITY      ###### 
-#######################################
+
+### ALPHA DIVERSITY
 
 
 # round normalized counts for alpha diversity
+```r
 phyloseq_obj_css_round <- phyloseq_obj_css
 otu_table(phyloseq_obj_css_round) <- round(otu_table(phyloseq_obj_css), digits = 0)
-
+```
 # check it out
+```
 head(otu_table(phyloseq_obj_css))
 ```
 
@@ -407,9 +415,9 @@ head(otu_table(phyloseq_obj_css_round))
 ## ASV5    10      0      0      0      0      0      0    11    14     8    11     9     10     10      7
 ## ASV6     5      9     11     10     11     11      9     9     7    11     9     9      9     10     10
 ```
+# let's focus on richeness (number of species) and let's check its variation along the longitudinal transect
 
 ```r
-#let's focus on richeness (number of species) and let's check its variation along the longitudinal transect
 
 plot_richness(physeq_normalized,x="Longitude",color = "Zone",measures=c("Observed"))
 ```
@@ -423,10 +431,11 @@ p1<-plot_richness(physeq_normalized,x="Longitude",color = "Zone",measures=c("Obs
 newSTorder = c( "ANW","ANC","ANE")
 p1$data$Zone<- as.character(p1$data$Zone)
 p1$data$Zone <- factor(p1$data$Zone, levels=newSTorder) 
-
-
+```
 
 #plot
+
+```
 ggplot(p1$data,aes(Longitude,value))+
   theme_bw()+theme(plot.title = element_text(hjust = 0.5))+
   geom_point(aes(colour = Zone),alpha =0.45)+
