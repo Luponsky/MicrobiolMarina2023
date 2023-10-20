@@ -43,3 +43,24 @@ ASVs table & Rapresentative Sequences
 <br>
 ASVs table + Rapresentative Sequences + taxonomy table + metadata
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
