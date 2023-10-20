@@ -28,6 +28,7 @@ Merge paired reads<br>
 Remove chimeras<br>
 </details>
 
+---
 
 <details>
 <summary>What are the outputs of DADA2?</summary>
@@ -35,4 +36,10 @@ Remove chimeras<br>
 ASVs table & Rapresentative Sequences
 </details>
 
+---
 
+<details>
+<summary>What are the inputs for Phyloseq?</summary>
+<br>
+ASVs table + Rapresentative Sequences + taxonomy table + metadata
+</details>
