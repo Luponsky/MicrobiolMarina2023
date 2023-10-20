@@ -11,7 +11,7 @@ Sail4Blue samples were collected in North Atlantic Ocean, from Florida to the Az
 <p align="center">
   <img width=50% height=50% src="https://github.com/Luponsky/MicrobiolMarina2023/blob/main/img/gel.png">
 </p>
-The 16S rRNA V4 region was amplified starting with 5 ng of each sample 
+The 16S rRNA gene V4 region was amplified starting with 5 ng of each sample 
 
 ---
 
