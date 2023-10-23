@@ -203,7 +203,7 @@ ggplot(data=rarefaction_curve_data_summary_verbose, aes(x = Depth,
     color = "black"  )+ggtitle("Rarefaction Curves")
 ```
 
-<img src="script_lezione_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+<img src="figure-html/unnamed-chunk-1-1.png" width="672" />
 
 
 ## there is something strange with sample 16 and 17 could you guess why
@@ -221,7 +221,7 @@ ggplot(data=rarefaction_curve_data_summary_verbose, aes(x = Depth,
                    color = "black"  )+ggtitle("Rarefaction Curves")
 ```
 
-<img src="script_lezione_files/figure-html/unnamed-chunk-1-2.png" width="672" />
+<img src="figure-html/unnamed-chunk-1-2.png" width="672" />
 
 
 # *do you see some patterns???????*
@@ -422,7 +422,7 @@ head(otu_table(phyloseq_obj_css_round))
 plot_richness(physeq_normalized,x="Longitude",color = "Zone",measures=c("Observed"))
 ```
 
-<img src="script_lezione_files/figure-html/unnamed-chunk-1-3.png" width="672" />
+<img src="figure-html/unnamed-chunk-1-3.png" width="672" />
 
 ```r
 p1<-plot_richness(physeq_normalized,x="Longitude",color = "Zone",measures=c("Observed"))
@@ -449,7 +449,7 @@ ggplot(p1$data,aes(Longitude,value))+
 ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 ```
 
-<img src="script_lezione_files/figure-html/unnamed-chunk-1-4.png" width="672" />
+<img src="figure-html/unnamed-chunk-1-4.png" width="672" />
 
 ```r
 #let's add the richness to our metadata, maybe will be useful later...
@@ -485,7 +485,7 @@ plot_ordination(phyloseq_obj_css, otu.ord,  color="Zone",axes =c(1,2))+
   ggtitle("Beta Diversity based on Bray-Curitis")
 ```
 
-<img src="script_lezione_files/figure-html/unnamed-chunk-1-5.png" width="672" />
+<img src="figure-html/unnamed-chunk-1-5.png" width="672" />
 
 ```r
 #why sample 1 is so different from the others of the "same zone"
@@ -536,7 +536,7 @@ ggplot(data=data_glom, aes(x=Sample, y=Abundance, fill=Genus)) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),legend.position="none")
 ```
 
-<img src="script_lezione_files/figure-html/unnamed-chunk-1-6.png" width="672" />
+<img src="figure-html/unnamed-chunk-1-6.png" width="672" />
 
 ```r
 # can you see any difference ???
@@ -568,7 +568,7 @@ p2 = plot_ordination(phyloseq_obj_css, RDA, color = "Zone", )+
 p2
 ```
 
-<img src="script_lezione_files/figure-html/unnamed-chunk-1-7.png" width="672" />
+<img src="figure-html/unnamed-chunk-1-7.png" width="672" />
 
 ```r
 # Now add the environmental variables as arrows
@@ -594,7 +594,7 @@ p3 = p2 + geom_segment(arrow_map, size = 1, data = arrowdf, color = "black",
 p3
 ```
 
-<img src="script_lezione_files/figure-html/unnamed-chunk-1-8.png" width="672" />
+<img src="figure-html/unnamed-chunk-1-8.png" width="672" />
 
 
 
