@@ -206,7 +206,7 @@ ggplot(data=rarefaction_curve_data_summary_verbose, aes(x = Depth,
 <img src="figure-html/unnamed-chunk-1-1.png" width="672" />
 
 
-## there is something strange with sample 16 and 17 could you guess why
+## there is something strange with sample 16 and 17, could you guess why?
 ```
 
 ggplot(data=rarefaction_curve_data_summary_verbose, aes(x = Depth, 
